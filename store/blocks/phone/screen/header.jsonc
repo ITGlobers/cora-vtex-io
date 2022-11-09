@@ -1,6 +1,6 @@
 {
   "header-layout.mobile": {
-    "title":"Header Desktop",
+    "title":"Header Mobile",
     "children": [
       "flex-layout.row#mobile__first-row"
     ]
