@@ -1,0 +1,33 @@
+.listPriceValue--summary-list-price {
+  font-size  : 12px;
+  font-weight: 400;
+  color      : #ed1c24;
+  line-height: 27px;
+}
+
+.listPrice--summary-list-price {
+  display       : flex;
+  flex-direction: column;
+}
+
+.listPrice--summary-list-price::before {
+  content         : "Super Pret!";
+  background-color: #ffde51;
+  padding         : 10px 20px;
+  font-weight     : 700;
+  margin-bottom   : 8px;
+  border-radius   : 20px;
+  font-size       : 12px;
+  text-align      : center;
+}
+
+.sellingPrice--summary-selling-price {
+  font-size  : 23px;
+  font-weight: 700;
+  line-height: 27px;
+  color      : #111c8b;
+}
+
+.currencyCode--summary-selling-price {
+  text-transform: capitalize;
+}

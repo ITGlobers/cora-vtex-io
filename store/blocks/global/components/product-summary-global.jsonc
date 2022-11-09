@@ -1,0 +1,53 @@
+{
+  "product-summary.shelf#global__product-summary": {
+    "children": [
+      "product-summary-image#global__product-summary--image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-brand",
+      "product-summary-space",
+      "product-list-price#global__product-summary--list",
+      "product-selling-price#global__product-summary--selling",
+      "flex-layout.row#global__product-summary--qty-add",
+      "add-to-list-btn"
+    ],
+    "props": {
+      "blockClass": "global__product-summary"
+    }
+  },
+
+  "product-summary-image#global__product-summary--image": {
+    "props": {
+      "showBadge": false
+    }
+  },
+
+  "product-list-price#global__product-summary--list": {
+    "props": {
+      "blockClass": "summary-list-price"
+    }
+  },
+
+  "product-selling-price#global__product-summary--selling": {
+    "props": {
+      "blockClass": "summary-selling-price"
+    }
+  },
+
+  "flex-layout.row#global__product-summary--qty-add": {
+    "children": [
+      "product-summary-quantity",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "product-summary__qty-add"
+    }
+  },
+
+  "product-summary-quantity": {
+    "props": {
+      "showLabel": false
+    }
+  }
+}
