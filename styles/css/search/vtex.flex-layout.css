@@ -1,0 +1,8 @@
+.flexRowContent--slider-rich-plp {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--slider-rich-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
