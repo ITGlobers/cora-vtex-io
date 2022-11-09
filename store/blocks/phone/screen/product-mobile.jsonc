@@ -1,0 +1,8 @@
+{
+  "responsive-layout.mobile#pdp": {
+    "title": "product page mobile",
+    "children": [
+      "flex-layout.row#product-breadcrumb"
+    ]
+  }
+}
