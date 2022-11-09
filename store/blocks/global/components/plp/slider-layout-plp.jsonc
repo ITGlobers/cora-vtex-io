@@ -21,7 +21,7 @@
   },
   "list-context.product-list#shelf-plp": {
     "title": "list context shelf",
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#global__product-summary"],
     "children": ["slider-layout#plp"],
     "props": {
       "category": "3000000/3060000",

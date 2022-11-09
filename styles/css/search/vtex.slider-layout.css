@@ -1,0 +1,8 @@
+.sliderLayoutContainer--slider-plp {
+  display: flex;
+  justify-content: center;
+}
+
+.sliderTrackContainer--slider-plp {
+  width: 1050px !important;
+}
