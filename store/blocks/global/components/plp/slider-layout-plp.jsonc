@@ -1,0 +1,103 @@
+{
+  "flex-layout.row#slider-rich-plp": {
+    "title": "container slider plp",
+    "children": [
+      "rich-text#shelf-vitrina-plp",
+      "flex-layout.col#slider-two"
+    ],
+    "props": {"blockClass": "slider-rich-plp"}
+  },
+  "rich-text#shelf-vitrina-plp": {
+    "title": "title slider",
+    "props": {
+      "text": "Produse Recomandate",
+      "blockClass": "title-slider--plp"
+    }
+  },
+  "flex-layout.col#slider-two": {
+    "title": "container slider",
+    "children": ["list-context.product-list#shelf-plp"],
+    "props": {"blockClass": "container-slider--plp"}
+  },
+  "list-context.product-list#shelf-plp": {
+    "title": "list context shelf",
+    "blocks": ["product-summary.shelf#global__product-summary"],
+    "children": ["slider-layout#plp"],
+    "props": {
+      "category": "3000000/3060000",
+      "blockClass": "shelf-plp",
+      /* "collection": "137", */
+      "maxItems": 10,
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#plp": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "navigationStep": 1,
+      "blockClass": "slider-plp",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+
+  /* mobile slider */
+
+  "flex-layout.row#slider-rich-plp-mobile": {
+    "title": "container slider plp",
+    "children": [
+      "rich-text#shelf-vitrina-plp",
+      "flex-layout.col#slider-two"
+    ],
+    "props": {"blockClass": "slider-rich-plp"}
+  },
+  "rich-text#shelf-vitrina-plp-mobile": {
+    "title": "title slider",
+    "props": {
+      "text": "Produse Recomandate",
+      "blockClass": "title-slider--plp"
+    }
+  },
+  "flex-layout.col#slider-two-mobile": {
+    "title": "container slider",
+    "children": ["list-context.product-list#shelf-plp"],
+    "props": {"blockClass": "container-slider--plp"}
+  },
+  "list-context.product-list#shelf-plp-mobile": {
+    "title": "list context shelf",
+    "blocks": ["product-summary.shelf#global__product-summary"],
+    "children": ["slider-layout#plp"],
+    "props": {
+      "category": "3000000/3060000",
+      "blockClass": "shelf-plp",
+      /* "collection": "137", */
+      "maxItems": 10,
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#plp-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "navigationStep": 1,
+      "blockClass": "slider-plp-mobile",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "autoplay":{
+        "timeout": 3000,
+        "stopOnHover": false
+      }
+    }
+  }
+}
