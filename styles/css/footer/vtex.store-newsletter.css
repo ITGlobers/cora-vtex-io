@@ -58,3 +58,12 @@
 .newsletterForm--footer__newsletter {
     width: 100%;
 }
+
+@media (max-width: 990px) {
+    .formSubmitContainer--footer__submit :global(.vtex-button) {
+        width: 120px;
+    }
+    .formSubmitContainer--footer__submit :global(.vtex-button__label) {
+        font-size: 10px;
+    }
+}

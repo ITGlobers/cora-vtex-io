@@ -1,0 +1,17 @@
+.trigger--disclosures__mobile--hidden,
+.trigger--disclosures__mobile--visible {
+    width: 100%;
+    border: 0;
+    padding: 0 15px;
+}
+
+.trigger--disclosures__mobile--hidden :global(.vtex-rich-text-0-x-paragraph),
+.trigger--disclosures__mobile--visible :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.content--disclosures__mobile--visible {
+    padding: 0 15px;
+    background-color: #efefef;
+}

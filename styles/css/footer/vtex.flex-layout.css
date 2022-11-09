@@ -80,3 +80,35 @@
 .flexRowContent--footer__information :global(.vtex-rich-text-0-x-strong) {
     font-size: 14px;
 }
+
+.flexRow--footer__information--mobile :global(.vtex-store-components-3-x-container),
+.flexRow--footer__sections--copyright-partners :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+@media (max-width: 990px) {
+    .flexRow--footer__newsletter {
+        height: 212px;
+        position: relative;
+    }
+
+    .flexColChild--footer__newsletter--subscription {
+        z-index: 1;
+    }
+
+    .flexColChild--footer__newsletter--subscription {
+        width: 85%;
+        margin: auto;
+    }
+
+    .flexRowContent--footer__sections--socials {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #efefef;
+    }
+
+    .flexCol--footer__sections--copyright-partners {
+        background-color: #efefef;
+        padding-bottom: 50px;
+    }
+}

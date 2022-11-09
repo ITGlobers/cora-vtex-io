@@ -57,3 +57,37 @@
     font-size: 14px;
     padding-left: 1rem;
 }
+
+@media (max-width: 990px) {
+    .strong--subcription__title {
+        font-size: 16px;
+        line-height: 0;
+    }
+
+    .paragraph--subcription__title {
+        font-size: 11px;
+    }
+
+    .paragraph--footer__information {
+        font-size: 10px;
+    }
+
+    .paragraph--copyright,
+    .paragraph--terms,
+    .paragraph--termeni,
+    .paragraph--SOL {
+        font-size: 10px;
+    }
+
+    .paragraph--terms {
+        padding: 0 0.5rem;
+    }
+
+    .paragraph--termeni {
+        padding-right: 0.5rem;
+    }
+
+    .paragraph--SOL {
+        padding-left: 0.5rem;
+    }
+}

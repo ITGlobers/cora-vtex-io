@@ -1,0 +1,163 @@
+{
+  "flex-layout.row#footer__information--mobile": {
+    "children": [
+      "flex-layout.col#footer__information--mobile"
+    ],
+    "props": {
+      "blockClass": "footer__information--mobile"
+    }
+  },
+  "flex-layout.col#footer__information--mobile": {
+    "children": [
+      "disclosure-layout#cora",
+      "disclosure-layout#comenzi",
+      "disclosure-layout#companie",
+      "disclosure-layout#informati"
+    ],
+    "props": {
+      "blockClass": "footer__information--mobile"
+    }
+  },
+  "disclosure-layout#cora": {
+    "children": [
+      "flex-layout.row#disclosure__cora",
+      "disclosure-content#cora"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "flex-layout.row#disclosure__cora": {
+    "children": [
+      "disclosure-trigger#cora",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-trigger#cora": {
+    "children": [
+      "rich-text#footer__information--cora"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "disclosure-content#cora": {
+    "children": [
+      "rich-text#footer__information--cataloage",
+      "rich-text#footer__information--promotii",
+      "rich-text#footer__information--regulamente",
+      "rich-text#footer__information--sortimentatie",
+      "rich-text#footer__information--cluburile",
+      "rich-text#footer__information--aplicatia"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "disclosure-layout#comenzi": {
+    "children": [
+      "disclosure-trigger#comenzi",
+      "disclosure-content#comenzi"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "flex-layout.row#disclosure__comenzi": {
+    "children": [
+      "disclosure-trigger#comenzi",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-trigger#comenzi": {
+    "children": [
+      "rich-text#footer__information--comenzi"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "disclosure-content#comenzi": {
+    "children": [
+      "rich-text#footer__information--cum",
+      "rich-text#footer__information--livrare",
+      "rich-text#footer__information--cora-express",
+      "rich-text#footer__information--cora-urban",
+      "rich-text#footer__information--cora-pro"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "disclosure-layout#companie": {
+    "children": [
+      "disclosure-trigger#companie",
+      "disclosure-content#companie"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "flex-layout.row#disclosure__companie": {
+    "children": [
+      "disclosure-trigger#companie",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-trigger#companie": {
+    "children": [
+      "rich-text#footer__information--companie"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "disclosure-content#companie": {
+    "children": [
+      "rich-text#footer__information--valorile",
+      "rich-text#footer__information--despre",
+      "rich-text#footer__information--cariere",
+      "rich-text#footer__information--comunicate",
+      "rich-text#footer__information--responsabilitate",
+      "rich-text#footer__information--sustenabilitate"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "disclosure-layout#informati": {
+    "children": [
+      "disclosure-trigger#informati",
+      "disclosure-content#informati"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "flex-layout.row#disclosure__informati": {
+    "children": [
+      "disclosure-trigger#informati",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-trigger#informati": {
+    "children": [
+      "rich-text#footer__information--informati"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  },
+  "disclosure-content#informati": {
+    "children": [
+      "rich-text#footer__information--contact",
+      "rich-text#footer__information--servicii-financiare",
+      "rich-text#footer__information--servicii-magazine",
+      "rich-text#footer__information--excluderi",
+      "rich-text#footer__information--rechemare"
+    ],
+    "props": {
+      "blockClass": "disclosures__mobile"
+    }
+  }
+}

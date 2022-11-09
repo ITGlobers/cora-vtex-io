@@ -127,6 +127,7 @@
       "image#blogger"
     ],
     "props": {
+      "blockClass": "footer__sections--socials",
       "colSizing": "auto"
     }
   },
