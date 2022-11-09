@@ -1,0 +1,77 @@
+/* filter */
+.filter__container--filter-horizontal--title {
+  display: none;
+}
+
+.filtersWrapper--filter-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.filter__container--filter-horizontal {
+  border: none;
+  margin-right: 10px;
+}
+
+.filterAvailable--filter-horizontal {
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.filterTitleSpan--filter-horizontal {
+  font-size: 0.8rem;
+  color: #273896;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.caretIcon--filter-horizontal {
+  width: 8px;
+  height: 8px;
+  color: #273896;
+}
+
+.filterItem--filter-horizontal :global(.vtex-checkbox__label) {
+  font-size: 0.8rem;
+}
+
+.filterTemplateOverflow--filter-horizontal {
+  margin-top: 10px;
+}
+
+.filterTemplateOverflow--filter-horizontal :global(.vtex-slider__left-value),
+.filterTemplateOverflow--filter-horizontal :global(.vtex-slider__right-value)   {
+  font-size: 0.8rem;
+}
+
+.priceRangeInput--filter-horizontal :global(.vtex-styleguide-9-x-input) {
+  font-size: 0.8rem;
+}
+
+.priceRangeInput--filter-horizontal :global(.vtex-input__suffix) {
+  display: none;
+}
+
+.priceRangeInputWrapper--filter-horizontal :global(.vtex-button) :global(.vtex-button__label) {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.priceRangeInput--filter-horizontal :global(.vtex-input-prefix__group) {
+  border-radius: 20px;
+  width: 120px;
+  background-color: #fafafa;
+  border: 1px solid #d9dbec;
+}
+/* filter */
+/* gallery */
+.flexCol--productCountCol{
+  display: flex;
+  flex-direction: row;
+}
+/* gallery */

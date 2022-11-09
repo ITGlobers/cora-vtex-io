@@ -1,3 +1,15 @@
+.flexRow--flexBreadcrumb,
+.flexRow--searchContent-container,
+.flexRow--slider-rich-plp {
+  width: calc(1220px - 24px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--flexBreadcrumb {
+  padding-bottom: 50px;
+}
+
+/* slider plp */
 .flexRowContent--slider-rich-plp {
   display: flex;
   flex-direction: column;
@@ -6,3 +18,24 @@
 .flexRowContent--slider-rich-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
 }
+/* slider plp */
+/* filter */
+.flexRowContent--searchContent-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--searchContent-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+
+.flexCol--filterCol {
+  margin-bottom: 50px;
+}
+/* filter */
+/* gallery */
+.flexCol--productCountCol{
+  display: flex;
+  flex-direction: row;
+}
+/* gallery */

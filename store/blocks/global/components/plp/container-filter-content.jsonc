@@ -3,7 +3,7 @@
     "title": "container filter - content",
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
-      "preventHorizontalStretch": true,
+      "preventHorizontalStretch": false,
       "fullWidth": true,
       "blockClass": "searchContent-container"
     }
@@ -13,6 +13,13 @@
     "children": ["filter-navigator.v3"],
     "props": {
       "blockClass": "filterCol"
+    }
+  },
+  "filter-navigator.v3": {
+    "props":{
+      "blockClass": "filter-horizontal",
+      "initiallyCollapsed": true,
+      "priceRangeLayout": "inputAndSlider"
     }
   },
   "flex-layout.col#content": {
@@ -38,15 +45,15 @@
     }
   },
   "flex-layout.col#productCount": {
-    "title": "container totalProducts",
-    "children": ["total-products.v2"],
+    "title": "container gallery layout - totalProducts",
+    "children": ["gallery-layout-switcher", "total-products.v2"],
     "props": {
       "blockClass": "productCountCol"
     }
   },
   "flex-layout.row#orderByAndSwitcher": {
-    "title": "container orderBy - gallery layout",
-    "children": ["order-by.v2", "gallery-layout-switcher"],
+    "title": "container orderBy",
+    "children": ["order-by.v2"],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,
@@ -86,7 +93,7 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "(min-width:1300px)": 4,
-            "desktop": 3,
+            "desktop": 4,
             "tablet": 3,
             "phone": 2
           }
@@ -98,7 +105,7 @@
         }
       ],
       "ListSummary": "product-summary.shelf",
-      "GridSummary": "product-summary.shelf"
+      "GridSummary": "product-summary.shelf#global__product-summary"
     }
   },
   "flex-layout.row#fetchmore": {
