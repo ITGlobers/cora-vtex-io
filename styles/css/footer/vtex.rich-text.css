@@ -1,0 +1,59 @@
+.strong--subcription__title {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    margin-bottom: 1rem;
+}
+
+.paragraph--subcription__title {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 29px;
+    margin: 0;
+}
+
+.container--subcription__title,
+.wrapper--subcription__title,
+.wrapper--footer__information {
+    width: 100%;
+}
+
+.paragraph--footer__information {
+    margin: 0;
+    line-height: 28.55px;
+    font-size: 13px;
+}
+
+.paragraph--footer__information:hover,
+.paragraph--terms:hover,
+.paragraph--SOL:hover,
+.paragraph--termeni:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wrapper--copyright,
+.wrapper--terms {
+    font-size: 14px;
+}
+
+.paragraph--terms {
+    margin: 0;
+    border-right: 1px solid #111c8b;
+    padding: 0 1rem;
+}
+
+.paragraph--termeni {
+    margin: 0;
+    border-right: 1px solid #111c8b;
+    font-size: 14px;
+    padding-right: 1rem;
+}
+
+.paragraph--SOL {
+    margin: 0;
+    font-size: 14px;
+    padding-left: 1rem;
+}
