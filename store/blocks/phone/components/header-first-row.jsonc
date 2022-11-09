@@ -1,0 +1,47 @@
+{
+  "flex-layout.row#mobile__first-row": {
+    "title": "Header First Row Mobile",
+    "children": [
+      "flex-layout.row#mobile__first-row--logo-account",
+      "flex-layout.row#mobile__first-row--sticky"
+    ],
+    "props": {
+      "blockClass": [
+        "mobile__first-row",
+        "standar-maxwidth"
+      ],
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#mobile__first-row--logo-account":{
+    "title":"Logo and Account",
+    "children":[
+      "logo#global__logo-store",
+      "login#global__login"
+    ],
+    "props":{
+      "colSizing": "auto",
+      "blockClass": "first-row__logo-account"
+    }
+  },
+
+  "flex-layout.row#mobile__first-row--sticky":{
+    "title": "Sticky Bar",
+    "children":[
+      "modal-trigger#first-row__sticky--search",
+      "modal-trigger#first-row__sticky--menu",
+      "minicart.v2#global__minicart"
+    ],
+    "props":{
+      "blockClass": [
+        "first-row__sticky",
+        "standar-maxwidth"
+      ],
+      "colSizing":"auto",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    }
+  }
+}

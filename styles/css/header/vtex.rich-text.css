@@ -1,0 +1,25 @@
+.container--locator__button {
+  border         : 1px solid #e8e9f4;
+  padding        : 0 20px;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  max-width      : 331px;
+  width          : 100%;
+  height         : 36px;
+  border-radius  : 20px;
+  cursor         : pointer;
+}
+
+.container--locator__button::before {
+  background-image     : url(https://www.cora.ro/static/version1667889402/frontend/Exorigo/Cora/ro_RO/images/sl_store.svg);
+  background-position-x: 0;
+  background-position-y: 0;
+  line-height          : 12px;
+  vertical-align       : middle;
+  height               : 12px;
+  width                : 14px;
+  background-repeat    : no-repeat;
+  content              : '';
+  display              : inline-block;
+}

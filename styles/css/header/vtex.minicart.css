@@ -1,0 +1,30 @@
+.drawer {
+  z-index: 9999;
+}
+
+.openIconContainer {
+  padding: 0;
+}
+
+.minicartIconContainer {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+}
+
+.minicartIconContainer::before {
+  content    : '\e90d';
+  font-family: 'cora-icons';
+  font-weight: 400;
+  font-size  : 20px;
+  color      : #111c8b;
+}
+
+.minicartIconContainer .cartIcon {
+  display: none;
+}
+
+.minicartQuantityBadgeDefault {
+  top  : -5px;
+  right: -10px;
+}

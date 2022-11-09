@@ -1,0 +1,62 @@
+{
+  "modal-trigger#first-row__sticky--search": {
+    "title": "Search Modal",
+    "children": [
+      "rich-text#sticky__search--icon",
+      "modal-layout#sticky__search--content"
+    ]
+  },
+
+  "rich-text#sticky__search--icon": {
+    "title": "Icon",
+    "props": {
+      "text": "",
+      "blockClass": "sticky__search--icon"
+    }
+  },
+
+  "modal-layout#sticky__search--content": {
+    "title": "Content Modal",
+    "children": [
+      "modal-header#search__content--close",
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "search__content"
+    }
+  },
+
+
+
+  "modal-trigger#first-row__sticky--menu": {
+    "title": "Menu Modal",
+    "children": [
+      "rich-text#sticky__menu--icon",
+      "modal-layout#sticky__menu--content"
+    ]
+  },
+
+  "rich-text#sticky__menu--icon": {
+    "title": "Icon",
+    "props": {
+      "text": "",
+      "blockClass": "sticky__menu--icon"
+    }
+  },
+
+  "modal-layout#sticky__menu--content": {
+    "title": "Content Modal",
+    "children": [
+      "modal-header#search__content--close"
+    ],
+    "props": {
+      "blockClass": "search__content"
+    }
+  },
+
+  "modal-header#search__content--close": {
+    "props": {
+      "blockClass": "content__close"
+    }
+  }
+}

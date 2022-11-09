@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#desktop__first-row": {
+    "title": "Header First Row Desktop",
+    "children": [
+      "flex-layout.row#desktop__first-row--logo-search",
+      "modal-trigger#desktop__first-row--locator"
+    ],
+    "props": {
+      "blockClass": [
+        "desktop__first-row",
+        "standar-maxwidth"
+      ],
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#desktop__first-row--logo-search": {
+    "title": "Logo and Search Area",
+    "children": [
+      "flex-layout.col#first-row__logo-search--logo",
+      "flex-layout.col#first-row__logo-search--search",
+      "flex-layout.col#first-row__logo-search--wishlist",
+      "flex-layout.col#first-row__logo-search--login"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "width": "70%",
+      "blockClass": "first-row__logo-search"
+    }
+  },
+
+  "flex-layout.col#first-row__logo-search--logo": {
+    "children": [
+      "logo#global__logo-store"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#first-row__logo-search--search": {
+    "children": [
+      "search-bar#global__search--bar"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  },
+
+  "flex-layout.col#first-row__logo-search--wishlist": {
+    "children": [
+      "link#first-row__logo-search--wishlist"
+    ],
+    "props": {
+      "width": "5%"
+    }
+  },
+
+  "link#first-row__logo-search--wishlist": {
+    "title": "Link Wishlist",
+    "props": {
+      "href": "/account",
+      "label": "wish"
+    }
+  },
+
+  "flex-layout.col#first-row__logo-search--login": {
+    "children": [
+      "login#global__login"
+    ],
+    "props": {
+      "width": "5%"
+    }
+  },
+
+  "modal-trigger#desktop__first-row--locator": {
+    "title": "Modal Locator",
+    "children": [
+      "rich-text#first-row__locator--button",
+      "modal-layout#first-row__locator--content"
+    ]
+  },
+
+  "rich-text#first-row__locator--button": {
+    "props": {
+      "text": "",
+      "blockClass": "locator__button"
+    }
+  },
+
+  "modal-layout#first-row__locator--content": {
+    "children": [
+      "rich-text#modal-content"
+    ]
+  },
+
+  "rich-text#modal-content": {
+    "props": {
+      "text": "Modal"
+    }
+  }
+}

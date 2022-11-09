@@ -1,0 +1,18 @@
+{
+  "search-bar#global__search--bar": {
+    "title":"Header Search Bar",
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "blockClass": "global__search--bar"
+    }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf#global__product-summary"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+.flexRowContent--desktop__first-row {
+  align-items  : center;
+  height       : 59px;
+  padding-top  : 16px;
+  margin-bottom: 4px;
+}
+
+.flexRowContent--first-row__logo-search {
+  align-content: center;
+}
+
+.flexRowContent--first-row__logo-search :global(.vtex-store-components-3-x-logoLink) {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  height         : fit-content;
+}
+
+.flexRowContent--first-row__logo-search :global(.vtex-store-components-3-x-logoContainer) {
+  padding    : 0;
+  padding-top: 5px;
+}
+
+.flexRowContent--first-row__logo-search :global(.vtex-store-link-0-x-link) {
+  height         : 100%;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  font-size      : 0;
+  text-decoration: none;
+}
+
+.flexRowContent--first-row__logo-search :global(.vtex-store-link-0-x-link)::after {
+  content: url(https://www.cora.ro/static/version1667889402/frontend/Exorigo/Cora/ro_RO/images/wishlist.svg);
+  height : 28px;
+  width  : 28px;
+}
+
+.flexRowContent--first-row__logo-search :global(.vtex-login-2-x-buttonLink) :global(.vtex-button__label) {
+  display: none;
+}
+
+/*MOBILE*/
+
+.flexRowContent--mobile__first-row {
+  position: relative;
+  margin  : 0 0 10px;
+  padding : 10px 0 0;
+}
+
+.flexRowContent--mobile__first-row :global(.vtex-store-components-3-x-logoContainer) {
+  padding        : 0;
+  margin         : auto;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  width          : 100%;
+}
+
+.flexRowContent--mobile__first-row :global(.vtex-store-components-3-x-logoImage) {
+  height: auto;
+}
+
+.flexRowContent--mobile__first-row :global(.vtex-login-2-x-container) {
+  position: absolute;
+  top     : 0;
+  bottom  : 0;
+  right   : 15px;
+  margin  : auto;
+  width   : fit-content;
+}
+
+/*MOBILE FIXED*/
+
+.flexRow--first-row__sticky {
+  border       : 1px solid #e8e9f4;
+  display      : flex;
+  align-items  : center;
+  background   : #fff;
+  position     : fixed;
+  bottom       : 5px;
+  z-index      : 9999;
+  width        : 95% !important;
+  height       : 41px;
+  border-radius: 20px;
+  margin       : 0 auto;
+  padding      : 0 11px;
+  left         : 0;
+  right        : 0;
+}
+
+.flexRowContent--first-row__sticky {
+  align-items: center;
+}
+
+.flexRow--first-row__sticky :global(.vtex-rich-text-0-x-container--sticky__search--icon),
+.flexRow--first-row__sticky :global(.vtex-rich-text-0-x-container--sticky__menu--icon) {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+.flexRow--first-row__sticky :global(.vtex-rich-text-0-x-container--sticky__search--icon)::before {
+  content    : '\e907';
+  font-family: 'cora-icons';
+  font-weight: 400;
+  font-size  : 20px;
+}
+
+.flexRow--first-row__sticky :global(.vtex-rich-text-0-x-container--sticky__menu--icon)::before {
+  content    : '\e908';
+  font-family: 'cora-icons';
+  font-weight: 400;
+  font-size  : 20px;
+}
+
+.flexRow--first-row__sticky :global(.vtex-store-components-3-x-portalContainer) {
+  top: 10px;
+}
+
+.flexRow--first-row__sticky :global(.vtex-store-components-3-x-resultsList) {
+  border: none;
+}
