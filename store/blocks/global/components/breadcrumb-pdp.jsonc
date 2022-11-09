@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4,
+      "blockClass": "flexBreadcrumb"
+    },
+    "children": ["breadcrumb"]
+  },
+
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true,
+      "blockClass": "breadcrumbPdp"
+    }
+  }
+}
