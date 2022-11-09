@@ -1,5 +1,6 @@
 {
   "flex-layout.row#searchbread": {
+    "title": "breadcrumb plp",
     "children": ["breadcrumb.search"],
     "props": {
       "preserveLayoutOnMobile": true,

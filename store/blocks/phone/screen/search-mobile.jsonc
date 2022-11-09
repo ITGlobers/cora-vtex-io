@@ -19,6 +19,7 @@
     }
   },
   "flex-layout.row#searchinfomobile": {
+    "title": "container order - filter - switcher",
     "children": [
       "flex-layout.col#orderByMobile",
       "flex-layout.col#filterMobile",
@@ -49,12 +50,14 @@
     }
   },
   "flex-layout.row#productCountMobile": {
+    "title": "container total products",
     "children": ["total-products.v2"],
     "props": {
       "blockClass": "productCountMobileRow"
     }
   },
   "flex-layout.row#contentmobile": {
+    "title": "container search content",
     "children": ["search-content"],
     "props": {
       "preserveLayoutOnMobile": true

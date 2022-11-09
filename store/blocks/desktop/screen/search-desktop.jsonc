@@ -14,12 +14,14 @@
     }
   },
   "flex-layout.row#searchtitle": {
+    "title": "search title",
     "children": ["search-title.v2"],
     "props": {
       "blockClass": "searchTitle"
     }
   },
   "flex-layout.row#result": {
+    "title": "container filter - content",
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
       "preventHorizontalStretch": true,
