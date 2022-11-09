@@ -1,44 +1,52 @@
 {
   "store.custom#recipe-legume-mexicane": {
+    "title": "Recipe Legume Mexicane page",
     "blocks": [
       "flex-layout.row#info__recipe",
       "flex-layout.row#video"
     ]
   },
   "flex-layout.row#info__recipe": {
+    "title": "Container",
     "children": [
       "image#recipe-legume-mexicane",
       "flex-layout.col#container__info"
     ]
   },
   "image#recipe-legume-mexicane": {
+    "title": "Recipe image",
     "props": {
       "src": "assets/img/recipe-legume-mexicane.jpg",
       "maxHeight": 600
     }
   },
   "flex-layout.col#container__info": {
+    "title": "Container info",
     "children": [
       "rich-text#recipe__title",
       "rich-text#recipe__about"
     ]
   },
   "rich-text#recipe__title": {
+    "title": "Title",
     "props": {
       "text": "# Legume \n # Mexicane cu orez"
     }
   },
   "rich-text#recipe__about": {
+    "title": "About",
     "props": {
       "text": "**INGREDIENTE** \n 1 pungă (400 g) Mexican mix Vapeur Bonduelle \n 150 g orez basmatic \n 100 ml stoc de legume \n 1 ceapă roșie \n 1/2 ardei jalapeno \n 2 căței de usturoi \n 1/4 legătură coriandru \n sucul de la 1/2 lămâie \n ulei de măsline \n un vârf de ardei cayenne pudră \n un vârf de chimen pudră \n sare, piper \n\n **Pași de preparare** \n Pasul 1 \n Tocăm ceapa, ardeiul, usturoiul și coriandrul. \n\n Pasul 2 \n Călim ceapa și ardeiul în uleiul încins, iar ulterior adăugăm usturoiul. \n\n Pasul 3 \n Punem mixul mexican în tigaie, adăugăm condimentele și amestecăm. Timp de gătire 5-7 minute. \n\n Pasul 4 \n Adăugăm orezul și stocul de legume și lăsăm totul să fiarbă timp de 10 minute. \n\n Pasul 5 \n La final condimentăm cu sucul de lămâie, coriandrul, sare și piper. \n [CUMPARA TOATE](/checkout)"
     }
   },
   "flex-layout.row#video": {
+    "title": "Container video",
     "children": [
       "video#background"
     ]
   },
   "video#background": {
+    "title": "Video",
     "props": {
       "width": "100%",
       "height": "600px",
