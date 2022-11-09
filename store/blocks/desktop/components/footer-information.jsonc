@@ -1,0 +1,212 @@
+{
+  "flex-layout.row#footer__information": {
+    "title": "Links Area",
+    "children": [
+      "flex-layout.col#footer__information--cora",
+      "flex-layout.col#footer__information--comenzi",
+      "flex-layout.col#footer__information--companie",
+      "flex-layout.col#footer__information--informati"
+    ],
+    "props": {
+      "blockClass": "footer__information"
+    }
+  },
+  "flex-layout.col#footer__information--cora": {
+    "title": "First Column: Cora",
+    "children": [
+      "rich-text#footer__information--cora",
+      "rich-text#footer__information--cataloage",
+      "rich-text#footer__information--promotii",
+      "rich-text#footer__information--regulamente",
+      "rich-text#footer__information--sortimentatie",
+      "rich-text#footer__information--cluburile",
+      "rich-text#footer__information--aplicatia"
+    ]
+  },
+  "rich-text#footer__information--cora": {
+    "props": {
+      "text": "**cora**"
+    }
+  },
+  "rich-text#footer__information--cataloage": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Cataloage"
+    }
+  },
+  "rich-text#footer__information--promotii": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Promotii si tombole"
+    }
+  },
+  "rich-text#footer__information--regulamente": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Regulamente cora"
+    }
+  },
+  "rich-text#footer__information--sortimentatie": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Sortimentatie bogata"
+    }
+  },
+  "rich-text#footer__information--cluburile": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Cluburile cora"
+    }
+  },
+  "rich-text#footer__information--aplicatia": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Aplicatia cora Romania"
+    }
+  },
+  "flex-layout.col#footer__information--comenzi": {
+    "title": "First Column: Comenzi",
+    "children": [
+      "rich-text#footer__information--comenzi",
+      "rich-text#footer__information--cum",
+      "rich-text#footer__information--livrare",
+      "rich-text#footer__information--cora-express",
+      "rich-text#footer__information--cora-urban",
+      "rich-text#footer__information--cora-pro"
+    ]
+  },
+  "rich-text#footer__information--comenzi": {
+    "props": {
+      "text": "**Comenzi si livrari**"
+    }
+  },
+  "rich-text#footer__information--cum": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Cum comand online"
+    }
+  },
+  "rich-text#footer__information--livrare": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Livrare & ridicare comenzi"
+    }
+  },
+  "rich-text#footer__information--cora-express": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "cora Express"
+    }
+  },
+  "rich-text#footer__information--cora-urban": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "cora Urban"
+    }
+  },
+  "rich-text#footer__information--cora-pro": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "cora Pro"
+    }
+  },
+  "flex-layout.col#footer__information--companie": {
+    "title": "First Column: Companie",
+    "children": [
+      "rich-text#footer__information--companie",
+      "rich-text#footer__information--valorile",
+      "rich-text#footer__information--despre",
+      "rich-text#footer__information--cariere",
+      "rich-text#footer__information--comunicate",
+      "rich-text#footer__information--responsabilitate",
+      "rich-text#footer__information--sustenabilitate"
+    ]
+  },
+  "rich-text#footer__information--companie": {
+    "props": {
+      "text": "**Companie**"
+    }
+  },
+  "rich-text#footer__information--valorile": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Valorile noastre"
+    }
+  },
+  "rich-text#footer__information--despre": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Despre grupul Louis Delhaize"
+    }
+  },
+  "rich-text#footer__information--cariere": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Cariere"
+    }
+  },
+  "rich-text#footer__information--comunicate": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Comunicate de presa"
+    }
+  },
+  "rich-text#footer__information--responsabilitate": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Responsabilitate sociala"
+    }
+  },
+  "rich-text#footer__information--sustenabilitate": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Sustenabilitate"
+    }
+  },
+  "flex-layout.col#footer__information--informati": {
+    "title": "First Column: Informatii",
+    "children": [
+      "rich-text#footer__information--informati",
+      "rich-text#footer__information--contact",
+      "rich-text#footer__information--servicii-financiare",
+      "rich-text#footer__information--servicii-magazine",
+      "rich-text#footer__information--excluderi",
+      "rich-text#footer__information--rechemare"
+    ]
+  },
+  "rich-text#footer__information--informati": {
+    "props": {
+      "text": "**Informatii utile**"
+    }
+  },
+  "rich-text#footer__information--contact": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Contact"
+    }
+  },
+  "rich-text#footer__information--servicii-financiare": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Servicii financiare"
+    }
+  },
+  "rich-text#footer__information--servicii-magazine": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Servicii magazine"
+    }
+  },
+  "rich-text#footer__information--excluderi": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Excluderi promotii"
+    }
+  },
+  "rich-text#footer__information--rechemare": {
+    "props": {
+      "blockClass": "footer__information",
+      "text": "Rechemare produse"
+    }
+  }
+}

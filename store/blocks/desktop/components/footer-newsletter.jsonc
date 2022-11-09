@@ -1,0 +1,80 @@
+{
+  "flex-layout.row#footer__newsletter": {
+    "title": "Newsletter Area",
+    "children": [
+      "flex-layout.col#footer__newsletter--image",
+      "flex-layout.col#footer__newsletter--subscription"
+    ],
+    "props": {
+      "blockClass": "footer__newsletter"
+    }
+  },
+  "flex-layout.col#footer__newsletter--image": {
+    "title": "Image Area",
+    "children": [
+      "image#subscribe__newsletter"
+    ],
+    "props": {
+      "blockClass": "footer__newsletter--image"
+    }
+  },
+  "image#subscribe__newsletter": {
+    "props": {
+      "src": "assets/img/subscribe-newsletter.jpg",
+      "blockClass": "subscribe__newsletter"
+    }
+  },
+  "flex-layout.col#footer__newsletter--subscription": {
+    "title": "Form Area",
+    "children": [
+      "rich-text#subcription__title",
+      "newsletter-form#footer__newsletter"
+    ],
+    "props": {
+      "blockClass": "footer__newsletter--subscription"
+    }
+  },
+  "rich-text#subcription__title": {
+    "props": {
+      "text": "**Fii la curent cu ofertele cora!** \n Aboneaza-te la newsletter",
+      "blockClass": "subcription__title"
+    }
+  },
+  "newsletter-form#footer__newsletter": {
+    "children": [
+      "flex-layout.row#footer__newsletter--container",
+      "newsletter-checkbox-confirmation#footer__checkbox"
+    ],
+    "props": {
+      "blockClass": "footer__newsletter"
+    }
+  },
+  "flex-layout.row#footer__newsletter--container": {
+    "children": [
+      "newsletter-input-email#footer__email",
+      "newsletter-submit#footer__submit"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer__newsletter--container"
+    }
+  },
+  "newsletter-input-email#footer__email": {
+    "props": {
+      "blockClass": "footer__email",
+      "placeholderText": "adresa ta de e-mail"
+    }
+  },
+  "newsletter-submit#footer__submit": {
+    "props": {
+      "blockClass": "footer__submit",
+      "submitButtonLabel": "Aboneaza-te"
+    }
+  },
+  "newsletter-checkbox-confirmation#footer__checkbox": {
+    "props": {
+      "checkboxLabel": "Accept Termenii si conditiile cora.ro. Prin abonarea la newsletter confirm ca am peste 18 ani si am citit Politica de prelucrare a datelor cu caracter personal.",
+      "blockClass": "footer__checkbox"
+    }
+  }
+}
