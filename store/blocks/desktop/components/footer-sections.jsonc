@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__sections": {
+    "title": "Copyright Area",
     "children": [
       "flex-layout.col#footer__sections--copyright-partners",
       "flex-layout.col#footer__sections--socials"

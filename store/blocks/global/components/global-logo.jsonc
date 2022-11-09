@@ -1,0 +1,10 @@
+{
+  "logo#global__logo-store": {
+    "title": "Logo",
+    "props": {
+      "url": "assets/logos/logo-store.webp",
+      "href": "/",
+      "width": 117
+    }
+  }
+}
