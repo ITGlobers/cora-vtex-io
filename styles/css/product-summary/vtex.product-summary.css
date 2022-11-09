@@ -1,0 +1,66 @@
+.container--global__product-summary {
+  position     : relative;
+  max-width    : 233px !important;
+  background   : #fff;
+  border-radius: 20px;
+  overflow     : hidden;
+  margin       : 0 5px;
+  padding      : 1rem !important;
+}
+
+.container--global__product-summary .imageContainer {
+  height         : 134px;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+.container--global__product-summary .image {
+  width : auto;
+  height: 107px;
+}
+
+.container--global__product-summary .productBrand {
+  color      : #111c8b;
+  font-size  : 12px;
+  font-weight: 400;
+  height     : 28px;
+  line-height: 14px;
+}
+
+.container--global__product-summary .productBrandContainer {
+  text-align: left;
+}
+
+.container--global__product-summary .productBrandName {
+  color      : #000;
+  font-size  : 10px;
+  font-weight: 400;
+}
+
+.container--global__product-summary :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  position       : absolute;
+  top            : 5px;
+  right          : 5px;
+  width          : fit-content;
+  border         : 1px solid #e7e8f3;
+  border-radius  : 50%;
+  width          : 30px;
+  height         : 30px;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+.container--global__product-summary :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+.container--global__product-summary :global(.vtex-wish-list-1-x-wishlistIcon) {
+  width : 18px;
+  height: 18px;
+}
+
+.container--global__product-summary :global(.vtex-wish-list-1-x-outline) {
+  filter: grayscale(100%);
+}
