@@ -2,12 +2,12 @@
   "search-result-layout.mobile": {
     "title": "search mobile",
     "children": [
-      "flex-layout.row#searchbread",
-      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#searchbread#mobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#slider-rich-plp-mobile"
     ],
     "props": {
       "pagination": "show-more",
@@ -18,23 +18,27 @@
       "defaultGalleryLayout": "grid"
     }
   },
-  "flex-layout.row#searchinfomobile": {
-    "title": "container order - filter - switcher",
+  "flex-layout.row#searchbread#mobile": {
+    "title": "container breadcrumb- filtros",
     "children": [
-      "flex-layout.col#orderByMobile",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchinfomobile"
+    ],
+    "props":{
+      "blockClass": "breadcrumb-mobile"
+    }
+  },
+  "flex-layout.row#searchinfomobile": {
+    "title": "container filter - switcher",
+    "children": [
       "flex-layout.col#filterMobile",
       "flex-layout.col#switcherMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
-      "colJustify": "around"
-    }
-  },
-  "flex-layout.col#orderByMobile": {
-    "children": ["order-by.v2"],
-    "props": {
-      "blockClass": "orderByMobileCol"
+      "colJustify": "around",
+      "blockClass": "filter-switcher"
     }
   },
   "flex-layout.col#filterMobile": {
@@ -51,7 +55,7 @@
   },
   "flex-layout.row#productCountMobile": {
     "title": "container total products",
-    "children": ["total-products.v2"],
+    "children": ["total-products.v2", "order-by.v2"],
     "props": {
       "blockClass": "productCountMobileRow"
     }
@@ -60,7 +64,8 @@
     "title": "container search content",
     "children": ["search-content"],
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "blockClass": "mobile-content"
     }
   }
 }

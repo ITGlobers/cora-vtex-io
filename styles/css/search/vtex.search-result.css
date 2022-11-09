@@ -139,13 +139,31 @@
   padding-right: 0;
 }
 
-/* .buttonShowMore {
-  margin-top: 60px;
-  margin-bottom: 40px;
-} */
-
 .buttonShowMore :global(.vtex-button__label) {
   text-transform: capitalize;
 }
 /* gallery */
+
+@media screen and (min-width: 300px) and (max-width: 1024px){
+  .searchResultContainer {
+    padding: 0;
+  }
+
+  .totalProducts--layout {
+    padding-left: 0;
+    padding-bottom: 0;
+    text-align: start;
+  }
+
+}
+
+/* @media screen and (min-width: 300px) and (max-width: 425px){
+  .totalProducts--layout {
+    font-size: 0.5rem;
+  }
+
+  .totalProductsMessage {
+    font-size: 0.5rem;
+  }
+} */
 

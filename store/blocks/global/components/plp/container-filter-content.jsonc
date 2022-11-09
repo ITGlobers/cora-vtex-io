@@ -64,7 +64,8 @@
   "flex-layout.row#fetchprevious": {
     "title": "container fetch previous",
     "props": {
-      "marginBottom": 3
+      "marginBottom": 3,
+      "blockClass": "fetchmore"
     },
     "children": ["search-fetch-previous"]
   },
@@ -111,7 +112,8 @@
   "flex-layout.row#fetchmore": {
     "title": "container fetch more",
     "props": {
-      "marginTop": 3
+      "marginTop": 3,
+      "blockClass": "fetchmore"
     },
     "children": ["search-fetch-more"]
   },

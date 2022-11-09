@@ -10,3 +10,10 @@
 .caretIcon--slider-plp {
   color: #C7C7C7;
 }
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .sliderTrackContainer--slider-plp-mobile {
+    width: 800px !important;
+  }
+}
