@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop#pdp": {
+    "title": "product page desktop",
     "children": [
       "flex-layout.row#product-breadcrumb"
     ]

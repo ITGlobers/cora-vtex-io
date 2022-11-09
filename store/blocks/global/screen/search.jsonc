@@ -52,6 +52,7 @@
   },
 
   "search-result-layout": {
+    "title": "search",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -59,6 +60,7 @@
     ]
   },
   "search-not-found-layout": {
+    "title": "search not found",
     "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
   },
   "flex-layout.row#notfound": {
