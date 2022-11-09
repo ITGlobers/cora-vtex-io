@@ -1,0 +1,87 @@
+.flexRowContent--product-summary__qty-add {
+  margin-top: 15px;
+}
+
+.flexRowContent--product-summary__qty-add .stretchChildrenWidth:last-child {
+  width: 100% !important;
+}
+
+.flexRowContent--product-summary__qty-add :global(.vtex-numeric-stepper__input) {
+  border     : 0;
+  background : #def0f8;
+  font-size  : 12px;
+  font-weight: 400;
+}
+
+.flexRowContent--product-summary__qty-add :global(.vtex-numeric-stepper-container) {
+  border-radius: 20px;
+  overflow     : hidden;
+}
+
+.flexRowContent--product-summary__qty-add :global(.vtex-numeric-stepper__plus-button-container),
+.flexRowContent--product-summary__qty-add :global(.vtex-numeric-stepper__minus-button-container) {
+  background     : #def0f8;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  padding        : 2px;
+}
+
+.flexRowContent--product-summary__qty-add :global(.vtex-numeric-stepper__plus-button),
+.flexRowContent--product-summary__qty-add :global(.vtex-numeric-stepper__minus-button) {
+  border          : none;
+  font-size       : 25px;
+  width           : 25px;
+  height          : 25px;
+  background-color: #111c8b;
+  color           : #def0f8;
+  border-radius   : 50% !important;
+  width           : fit-content !important;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+}
+
+
+.flexRowContent--product-summary__qty-add :global(.vtex-button) {
+  position       : relative;
+  border         : none;
+  background     : transparent linear-gradient(167deg, #111c8b 0, #e90027 100%);
+  border-radius  : 20px;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  transition     : .3s all;
+  overflow       : hidden;
+  min-height     : 0;
+  height         : 30px;
+}
+
+.flexRowContent--product-summary__qty-add :global(.vtex-button)::after {
+  content   : '';
+  position  : absolute;
+  transition: opacity 1s ease;
+  left      : 0;
+  top       : 0;
+  width     : 100%;
+  height    : 100%;
+  background: transparent linear-gradient(167deg, #e90027 0, #111c8b 100%);
+  opacity   : 0;
+  z-index   : 1;
+}
+
+.flexRowContent--product-summary__qty-add :global(.vtex-button):hover::after {
+  opacity: 1;
+}
+
+.flexRowContent--product-summary__qty-add :global(.vtex-button)::before {
+  font-family: "cora-icons";
+  color      : #fff;
+  content    : '\E611';
+  font-size  : 30px;
+  z-index    : 2;
+}
+
+.flexRowContent--product-summary__qty-add :global(.vtex-button__label) {
+  display: none;
+}

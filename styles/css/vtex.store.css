@@ -1,0 +1,18 @@
+:global(.vtex-rich-text-0-x-container--standar-maxwidth),
+:global(.vtex-flex-layout-0-x-flexRowContent--standar-maxwidth),
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--standar-maxwidth),
+:global(.vtex-store-header-2-x-headerRowBackground--standar-maxwidth) {
+  max-width    : 1190px;
+  padding-left : 15px;
+  padding-right: 15px;
+  margin       : auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--standar-maxwidth) :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+:global(.vtex-minicart-2-x-overlay),
+:global(.vtex-modal-layout-0-x-backdrop) {
+  background-color: #000 !important;
+}
