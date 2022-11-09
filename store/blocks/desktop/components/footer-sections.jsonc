@@ -1,0 +1,165 @@
+{
+  "flex-layout.row#footer__sections": {
+    "children": [
+      "flex-layout.col#footer__sections--copyright-partners",
+      "flex-layout.col#footer__sections--socials"
+    ],
+    "props": {
+      "blockClass": "footer__sections"
+    }
+  },
+  "flex-layout.col#footer__sections--copyright-partners": {
+    "children": [
+      "rich-text#copyright",
+      "flex-layout.row#terms",
+      "flex-layout.row#partners"
+    ],
+    "props": {
+      "width": "66%",
+      "blockClass": "footer__sections--copyright-partners"
+    }
+  },
+  "rich-text#copyright": {
+    "props": {
+      "blockClass": "copyright",
+      "text": "© cora.ro 2003-2022 - Toate drepturile rezervate"
+    }
+  },
+  "flex-layout.row#terms": {
+    "children": [
+      "rich-text#termeni",
+      "rich-text#GDPR",
+      "rich-text#FAQ",
+      "rich-text#politica",
+      "rich-text#preferinte",
+      "rich-text#ANSVSA",
+      "rich-text#ANPC",
+      "rich-text#SOL"
+    ],
+    "props": {
+      "blockClass": "terms",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#termeni": {
+    "props": {
+      "blockClass": "termeni",
+      "text": "Termeni si conditii"
+    }
+  },
+  "rich-text#GDPR": {
+    "props": {
+      "blockClass": "terms",
+      "text": "GDPR"
+    }
+  },
+  "rich-text#FAQ": {
+    "props": {
+      "blockClass": "terms",
+      "text": "FAQ"
+    }
+  },
+  "rich-text#politica": {
+    "props": {
+      "blockClass": "terms",
+      "text": "Politica Cookie-uri"
+    }
+  },
+  "rich-text#preferinte": {
+    "props": {
+      "blockClass": "terms",
+      "text": "Preferinte Cookie-uri"
+    }
+  },
+  "rich-text#ANSVSA": {
+    "props": {
+      "blockClass": "terms",
+      "text": "ANSVSA"
+    }
+  },
+  "rich-text#ANPC": {
+    "props": {
+      "blockClass": "terms",
+      "text": "ANPC"
+    }
+  },
+  "rich-text#SOL": {
+    "props": {
+      "blockClass": "SOL",
+      "text": "SOL"
+    }
+  },
+  "flex-layout.row#partners": {
+    "children": [
+      "image#SOL",
+      "image#ANPC"
+    ],
+    "props": {
+      "blockClass": "partners"
+    }
+  },
+  "image#SOL": {
+    "props": {
+      "blockClass": "SOL",
+      "src": "assets/img/SOL-footer.png"
+    }
+  },
+  "image#ANPC": {
+    "props": {
+      "blockClass": "ANPC",
+      "src": "assets/img/ANPC-footer.jpg"
+    }
+  },
+  "flex-layout.col#footer__sections--socials": {
+    "children": [
+      "flex-layout.row#footer__sections--socials"
+    ],
+    "props": {
+      "blockClass": "footer__sections--socials",
+      "width": "34%"
+    }
+  },
+  "flex-layout.row#footer__sections--socials": {
+    "children": [
+      "image#facebook",
+      "image#youtube",
+      "image#instagram",
+      "image#blogger"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "image#facebook": {
+    "props": {
+      "blockClass": "facebook",
+      "src": "assets/img/facebook.png",
+      "link": "http://facebook.com/corahipermarket",
+      "maxHeight": 28
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "blockClass": "youtube",
+      "src": "assets/img/youtube.png",
+      "link": "https://www.youtube.com/channel/UCZR2Z5xeY4t8eee7XGMF5Wg",
+      "maxHeight": 28
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "blockClass": "instagram",
+      "src": "assets/img/instagram.png",
+      "link": "ttps://www.instagram.com/cora_romania/",
+      "maxHeight": 28
+    }
+  },
+  "image#blogger": {
+    "props": {
+      "blockClass": "blogger",
+      "src": "assets/img/blogger.png",
+      "link": "https://www.blog.cora.ro/",
+      "maxHeight": 28
+    }
+  }
+}
