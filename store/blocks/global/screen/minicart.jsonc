@@ -69,7 +69,7 @@
   "link#cart": {
     "props": {
       "displayMode": "button",
-      "href": "https://dev--andymark.myvtex.com/checkout/#/cart",
+      "href": "/checkout/#/cart",
       "label": "View Shopping Cart",
       "blockClass": "link-cart-btn"
     }
