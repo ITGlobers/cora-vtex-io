@@ -75,7 +75,8 @@
   .flexRow--slider-rich-plp,
   .flexRow--fetchmore,
   .flexRow--productCountMobileRow,
-  .flexRow--mobile-content {
+  .flexRow--mobile-content,
+  .flexRow--banner {
     width: calc(320px - 12px * 2);
     margin: 0 auto;
   }
@@ -86,7 +87,8 @@
   .flexRow--slider-rich-plp,
   .flexRow--fetchmore,
   .flexRow--productCountMobileRow,
-  .flexRow--mobile-content  {
+  .flexRow--mobile-content,
+  .flexRow--banner  {
     width: calc(370px - 12px * 2);
     margin: 0 auto;
   }
@@ -97,7 +99,8 @@
   .flexRow--slider-rich-plp,
   .flexRow--fetchmore,
   .flexRow--productCountMobileRow,
-  .flexRow--mobile-content  {
+  .flexRow--mobile-content,
+  .flexRow--banner  {
     width: calc(420px - 12px * 2);
     margin: 0 auto;
   }
@@ -108,7 +111,8 @@
   .flexRow--slider-rich-plp,
   .flexRow--fetchmore,
   .flexRow--productCountMobileRow,
-  .flexRow--mobile-content  {
+  .flexRow--mobile-content,
+  .flexRow--banner  {
     width: calc(770px - 12px * 2);
     margin: 0 auto;
   }
@@ -119,7 +123,8 @@
   .flexRow--slider-rich-plp,
   .flexRow--fetchmore,
   .flexRow--productCountMobileRow,
-  .flexRow--mobile-content  {
+  .flexRow--mobile-content,
+  .flexRow--banner  {
     width: calc(1000px - 5px * 2);
     margin: 0 auto;
   }

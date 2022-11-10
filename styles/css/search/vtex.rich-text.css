@@ -29,3 +29,36 @@
  top: 10px;
  left: -460px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 320px){
+  .container--departament {
+    left: -40px;
+    top: 0;
+   }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px){
+  .container--departament {
+    left: -70px;
+    top: 3px;
+   }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+  .container--departament {
+    left: -90px;
+    top: 5px;
+   }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+  .container--departament {
+    left: -260px;
+   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .container--departament {
+    left: -380px;
+   }
+}
