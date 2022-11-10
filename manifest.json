@@ -54,7 +54,8 @@
     "vtex.product-price": "1.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.store-icons": "0.x",
-    "cora.delivery-methods": "1.x"
+    "cora.delivery-methods": "1.x",
+    "vtex.store-video": "1.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

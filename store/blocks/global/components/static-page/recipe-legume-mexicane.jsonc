@@ -1,5 +1,181 @@
 {
   "store.custom#recipe-legume-mexicane": {
-    "children": []
+    "children": [
+      "flex-layout.row#info__recipe",
+      "flex-layout.row#video"
+    ]
+  },
+
+  "flex-layout.row#info__recipe": {
+    "title": "Main container",
+    "children": [
+      "image#recipe-legume-mexicane",
+      "flex-layout.col#container__info"
+    ],
+    "props": {
+      "blockClass": [
+        "recipes__main--container"
+      ],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#recipe-legume-mexicane": {
+    "title": "Recipe image",
+    "props": {
+      "src": "assets/img/recipe-legume-mexicane.webp",
+      "maxHeight": 600,
+      "blockClass":[
+        "recipe__image"
+      ]
+    }
+  },
+
+  "flex-layout.col#container__info": {
+    "title": "Text container",
+    "children": [
+      "rich-text#recipe__title",
+      "flex-layout.row#recipe__text",
+      "flex-layout.row#checkout__button"
+    ],
+    "props": {
+      "blockClass":[
+        "recipe__text--container"
+      ]
+    }
+  },
+
+  "rich-text#recipe__title": {
+    "title": "Text title",
+    "props": {
+      "text": "# Legume \n # Mexicane cu orez",
+      "blockClass":[
+        "recipe__title"
+      ]
+    }
+  },
+
+  "flex-layout.row#recipe__text":{
+    "title": "Recipe text",
+    "children": [
+    "flex-layout.col#ingredients",
+    "flex-layout.col#steps"],
+    "props": {
+      "blockClass": [
+        "recipe__text--content"
+      ]
+    }
+  },
+
+  "flex-layout.col#ingredients": {
+    "title": "Recipe ingredients",
+    "children": [
+      "rich-text#ingredients__title",
+      "rich-text#ingrdients__content"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":[
+        "ingredients__container"
+      ]
+    }
+  },
+
+  "rich-text#ingredients__title": {
+    "title": "Ingredients title",
+    "props": {
+      "text": "**INGREDIENTE**"
+    }
+  },
+
+  "rich-text#ingrdients__content": {
+    "title": "Ingredients text",
+    "props": {
+      "blockClass":[
+        "ingredient__text"
+      ],
+      "text": "- 1 pungă (400 g) Mexican mix Vapeur Bonduelle \n\n- 150 g orez basmatic \n\n- 100 ml stoc de legume \n\n- 1 ceapă roșie \n\n- 1/2 ardei jalapeno \n\n- 2 căței de usturoi \n\n- 1/4 legătură coriandru \n\n- Sucul de la 1/2 lămâie \n\n- Ulei de măsline \n\n- Un vârf de ardei cayenne pudră \n\n- Un vârf de chimen pudră \n\n- Sare, piper\n"
+    }
+  },
+
+  "flex-layout.col#steps": {
+    "title": "Recipe steps column",
+    "children": [
+      "rich-text#steps__title",
+      "rich-text#steps__content"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":[
+        "steps__container"
+      ]
+    }
+  },
+
+  "rich-text#steps__title":{
+    "title": "Steps title",
+    "props": {
+      "text": "**Pași de preparare**"
+    }
+  },
+
+  "rich-text#steps__content":{
+    "title": "Steps content",
+    "props": {
+      "blockClass":[
+        "steps__text"
+      ],
+      "text": "- **Pasul 1**\nTocăm ceapa, ardeiul, usturoiul și coriandrul. \n\n- **Pasul 2** \nCălim ceapa și ardeiul în uleiul încins, iar ulterior adăugăm usturoiul. \n\n- **Pasul 3** \nPunem mixul mexican în tigaie, adăugăm condimentele și amestecăm. Timp de gătire 5-7 minute. \n\n- **Pasul 4** \nAdăugăm orezul și stocul de legume și lăsăm totul să fiarbă timp de 10 minute. \n\n- **Pasul 5** \nLa final condimentăm cu sucul de lămâie, coriandrul, sare și piper. \n"
+    }
+  },
+
+  "flex-layout.row#checkout__button":{
+    "title": "Checkout button",
+    "children": [
+      "link#checkout__button"
+    ],
+    "props": {
+      "blockClass": "recipe__checkout--btn",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "link#checkout__button": {
+    "title": "Checkout button",
+    "props": {
+      "href": "/checkout",
+      "label": "CUMPARA TOATE",
+      "blockClass":[
+        "recipe-checkout"
+      ]
+    }
+  },
+
+  "flex-layout.row#video": {
+    "title": "Video container",
+    "children": [
+      "video#background"
+    ],
+    "props": {
+      "blockClass": [
+        "recipe-video-container"
+      ]
+    }
+  },
+
+  "video#background": {
+    "title": "Recipe video",
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": true,
+      "src": "https://www.youtube.com/watch?v=U_PuhnKxw2U",
+      "blockClass":[
+        "recipe"
+      ]
+    }
   }
 }
