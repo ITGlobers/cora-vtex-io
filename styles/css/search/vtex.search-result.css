@@ -149,7 +149,15 @@
 }
 /* gallery */
 
+.filterPopupTitle--filter-horizontal {
+  display: none;
+}
+
 @media screen and (min-width: 300px) and (max-width: 1024px){
+
+  .filterPopupTitle {
+    font-size: 0;
+  }
   .searchResultContainer {
     padding: 0;
   }
@@ -158,6 +166,17 @@
     padding-left: 0;
     padding-bottom: 0;
     text-align: start;
+  }
+
+  .filterIcon--filter-horizontal {
+    display: none;
+  }
+
+  .filterPopupArrowIcon--filter-horizontal::before {
+    content: '\e919';
+    font-family: 'cora-icons';
+    font-size: 28px;
+    color: #273896;
   }
 
 }

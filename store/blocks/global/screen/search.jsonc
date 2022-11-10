@@ -22,7 +22,7 @@
   },
 
   "store.search#department": {
-    "blocks": ["search-result-layout#departament"],
+    "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
