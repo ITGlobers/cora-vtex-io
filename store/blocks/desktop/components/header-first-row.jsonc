@@ -3,7 +3,7 @@
     "title": "Header First Row Desktop",
     "children": [
       "flex-layout.row#desktop__first-row--logo-search",
-      "modal-trigger#desktop__first-row--locator"
+      "flex-layout.col#desktop__first-row--locator"
     ],
     "props": {
       "blockClass": [
@@ -14,7 +14,6 @@
       "fullWidth": true
     }
   },
-
   "flex-layout.row#desktop__first-row--logo-search": {
     "title": "Logo and Search Area",
     "children": [
@@ -29,7 +28,6 @@
       "blockClass": "first-row__logo-search"
     }
   },
-
   "flex-layout.col#first-row__logo-search--logo": {
     "children": [
       "logo#global__logo-store"
@@ -46,7 +44,6 @@
       "width": "70%"
     }
   },
-
   "flex-layout.col#first-row__logo-search--wishlist": {
     "children": [
       "link#first-row__logo-search--wishlist"
@@ -55,7 +52,6 @@
       "width": "5%"
     }
   },
-
   "link#first-row__logo-search--wishlist": {
     "title": "Link Wishlist",
     "props": {
@@ -63,7 +59,6 @@
       "label": "wish"
     }
   },
-
   "flex-layout.col#first-row__logo-search--login": {
     "children": [
       "login#global__login"
@@ -73,30 +68,15 @@
     }
   },
 
-  "modal-trigger#desktop__first-row--locator": {
-    "title": "Modal Locator",
+  "flex-layout.col#desktop__first-row--locator": {
     "children": [
-      "rich-text#first-row__locator--button",
-      "modal-layout#first-row__locator--content"
-    ]
-  },
-
-  "rich-text#first-row__locator--button": {
+      "delivery-methods"
+    ],
     "props": {
-      "text": "",
-      "blockClass": "locator__button"
-    }
-  },
-
-  "modal-layout#first-row__locator--content": {
-    "children": [
-      "rich-text#modal-content"
-    ]
-  },
-
-  "rich-text#modal-content": {
-    "props": {
-      "text": "Modal"
+      "marginRight": 6,
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle",
+      "blockClass": "headerDesktopDeliveryAddress"
     }
   }
 }
