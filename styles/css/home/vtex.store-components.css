@@ -1,0 +1,129 @@
+.infoCardContainer--hero__slider--one,
+.infoCardContainer--hero__slider--two,
+.infoCardContainer--hero__slider--three {
+    width: 100%;
+    max-width: 1150px;
+    min-height: 100%;
+    max-height: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+}
+
+@media (max-width: 990px) {
+
+    .infoCardContainer--hero__slider--one,
+    .infoCardContainer--hero__slider--two,
+    .infoCardContainer--hero__slider--three {
+        width: 345px;
+    }
+}
+
+.infoCardCallActionContainer--hero__slider--one :global(.vtex-button),
+.infoCardCallActionContainer--hero__slider--two :global(.vtex-button),
+.infoCardCallActionContainer--hero__slider--three :global(.vtex-button),
+.infoCardCallActionContainer--produseBIO__banner--mobile :global(.vtex-button) {
+    position: absolute;
+    bottom: 68px;
+    height: 36px !important;
+    min-height: 36px;
+    width: 160px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: transparent linear-gradient(167deg, #111c8b 0, #e90027 100%);
+    border-radius: 20px;
+    -webkit-transition: background 2s ease-out;
+    -moz-transition: background 2s ease-out;
+    -o-transition: background 2s ease-out;
+    transition: background 2s ease-out;
+}
+
+.infoCardCallActionContainer--hero__slider--one :global(.vtex-button),
+.infoCardCallActionContainer--hero__slider--three :global(.vtex-button) {
+    right: 68px;
+}
+
+.infoCardCallActionContainer--hero__slider--two :global(.vtex-button) {
+    left: 68px;
+}
+
+.infoCardCallActionContainer--produseBIO__banner--mobile :global(.vtex-button) {
+    right: 50px;
+}
+
+.infoCardCallActionContainer--hero__slider--one :global(.vtex-button):hover,
+.infoCardCallActionContainer--hero__slider--two :global(.vtex-button):hover,
+.infoCardCallActionContainer--hero__slider--three :global(.vtex-button):hover {
+    background: transparent linear-gradient(334deg, #111c8b 0, #e90027 100%);
+}
+
+.infoCardCallActionContainer--hero__slider--one :global(.vtex-button__label),
+.infoCardCallActionContainer--hero__slider--two :global(.vtex-button__label),
+.infoCardCallActionContainer--hero__slider--three :global(.vtex-button__label),
+.infoCardCallActionContainer--produseBIO__banner--mobile :global(.vtex-button__label) {
+    font-size: 12px;
+    text-transform: initial;
+    font-weight: 700;
+}
+
+.infoCardImageLinkWrapper--hero__slider--one,
+.infoCardImageLinkWrapper--hero__slider--two,
+.infoCardImageLinkWrapper--hero__slider--three {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageElement--banner__home {
+    width: 269px;
+    height: 269px;
+    cursor: pointer;
+}
+
+.imageElement--kidokida__banner,
+.imageElement--produseBIO__banner {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.imageElement--download__apps {
+    width: 114px;
+    height: 39px;
+}
+
+.imageElement--download__cora,
+.imageElement--download__apps {
+    cursor: pointer;
+}
+
+.imageElementLink--shelve__banner {
+    width: 436px !important;
+}
+
+.infoCardContainer--produseBIO__banner--mobile {
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.imageElement--download__cora--mobile {
+    border-radius: 20px;
+    width: 345px;
+}
+
+@media (max-width: 990px) {
+    .imageElementLink--shelve__banner {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .infoCardContainer--hero__slider--one {
+        width: 90%;
+    }
+    .imageElementLink--shelve__banner {
+        width: auto !important;
+    }
+}

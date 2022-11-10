@@ -1,0 +1,50 @@
+.sliderLayoutContainer--hero__sliders {
+    margin-top: 20px;
+    margin-bottom: 115px;
+}
+
+.paginationDotsContainer--hero__sliders {
+    bottom: -30px;
+}
+
+.paginationDot--hero__sliders {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    width: 17px !important;
+    height: 17px !important;
+}
+
+.paginationDot--hero__sliders--isActive {
+    background: #111c8b;
+}
+
+.caretIcon--product__shelve--one,
+.caretIcon--product__shelve--two,
+.caretIcon--shelve__banner {
+    width: 15px;
+    color: #c9cce5;
+}
+
+.caretIcon--product__shelve--one:hover,
+.caretIcon--product__shelve--two:hover,
+.caretIcon--shelve__banner:hover {
+    color: #111c8b;
+}
+
+.paginationDotsContainer--product__shelve--one,
+.paginationDotsContainer--product__shelve--two,
+.paginationDotsContainer--shelve__banner {
+    display: none;
+}
+
+.sliderLayoutContainer--shelve__banner,
+.sliderLayoutContainer--product__shelve--one,
+.sliderLayoutContainer--product__shelve--two {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.sliderLayoutContainer--shelve__banner {
+    max-width: 702px;
+
+}

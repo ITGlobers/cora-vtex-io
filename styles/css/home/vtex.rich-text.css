@@ -1,0 +1,29 @@
+.paragraph--banner__home {
+    margin: 0;
+    font-size: 20px;
+}
+
+.paragraph--kidokida__banner {
+    font-size: 25px;
+}
+
+.paragraph--produseBIO__banner {
+    font-size: 16px;
+}
+
+.strong--download__cora {
+    font-size: 20px;
+    -webkit-text-fill-color: transparent;
+    background-color: #111c8b;
+    background-image: linear-gradient(45deg,#e90027,#111c8b);
+    background-size: 100%;
+    -webkit-background-clip: text;
+}
+
+.paragraph--download__cora {
+    font-size: 12px;
+}
+
+.paragraph--kidokida__banner {
+    margin-bottom: 20px;
+}

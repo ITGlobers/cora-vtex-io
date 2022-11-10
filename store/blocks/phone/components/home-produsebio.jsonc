@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#produseBIO__banner--mobile": {
+    "children": [
+      "flex-layout.col#produseBIO__banner--mobile"
+    ],
+    "props": {
+      "blockClass": "produseBIO__banner--mobile"
+    }
+  },
+  "flex-layout.col#produseBIO__banner--mobile": {
+    "children": [
+      "rich-text#produseBIO__banner",
+      "info-card#produseBIO__banner--mobile"
+    ],
+    "props": {
+      "blockClass": "produseBIO__banner--mobile"
+    }
+  },
+  "info-card#produseBIO__banner--mobile": {
+    "props": {
+      "imageUrl": "assets/img/ProduseBIO-banner-mobile.jpg",
+      "blockClass": "produseBIO__banner--mobile",
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "callToActionText": "Comanda acum",
+      "callToActionUrl": "/",
+      "textAlignment": "center",
+      "imageActionUrl": "/"
+    }
+  }
+}

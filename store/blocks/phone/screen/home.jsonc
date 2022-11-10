@@ -1,0 +1,13 @@
+{
+  "responsive-layout.mobile": {
+    "children": [
+      "slider-layout#hero__sliders",
+      "flex-layout.row#product__shelve--one",
+      "flex-layout.row#shelve__banner",
+      "flex-layout.row#kidokida__banner",
+      "flex-layout.row#produseBIO__banner--mobile",
+      "flex-layout.row#product__shelve--two",
+      "flex-layout.row#download__cora--mobile"
+    ]
+  }
+}

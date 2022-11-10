@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#download__cora--mobile": {
+    "children": [
+      "flex-layout.col#download__cora",
+      "flex-layout.col#download__cora--banner--mobile"
+    ],
+    "props": {
+      "blockClass": "download__cora--mobile"
+    }
+  },
+  "flex-layout.col#download__cora--banner--mobile": {
+    "children": [
+      "image#download__cora--mobile"
+    ],
+    "props": {
+      "blockClass": "download__cora--banner--mobile"
+    }
+  },
+  "image#download__cora--mobile": {
+    "props": {
+      "src": "assets/img/download-cora-app-mobile.jpg",
+      "blockClass": "download__cora--mobile",
+      "link": {
+        "url": "https://www.cora.ro/aplicatia-cora-romania",
+        "newTab": true
+      }
+    }
+  }
+}
