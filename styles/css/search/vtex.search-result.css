@@ -6,7 +6,8 @@
 .filtersWrapper--filter-horizontal {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+ /*  justify-content: flex-start; */
+ justify-content: space-between;
 }
 
 .filter__container--filter-horizontal {
@@ -67,6 +68,11 @@
   width: 120px;
   background-color: #fafafa;
   border: 1px solid #d9dbec;
+}
+
+.filterSelected--filter-horizontal {
+  padding-top: 0.5rem;
+  padding-bottom: 0;
 }
 /* filter */
 /* gallery */
