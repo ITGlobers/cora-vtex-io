@@ -48,12 +48,86 @@
   max-width: 15%;
 }
 
+.styledLinkContainer--menu__category {
+  padding: 8px 0;
+}
+
 .styledLinkContent--menu__category {
-  display    : flex;
-  align-items: center;
-  font-size  : 12px;
-  font-weight: 700;
-  color      : #111c8b;
+  display        : flex;
+  align-items    : center;
+  font-size      : 12px;
+  font-weight    : 700;
+  color          : #111c8b;
+  max-width      : 222px;
+  width          : 185px;
+  white-space    : break-spaces;
+  justify-content: flex-start;
+  font-size      : 12px;
+  transition     : .3s all;
+}
+
+.styledLinkContent--menu__category:hover {
+  background-image       : linear-gradient(45deg, #e90027, #111c8b);
+  background-size        : 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip   : text;
+  -webkit-text-fill-color: transparent;
+}
+
+.styledLinkContent--menu__category::before {
+  margin-right: 15px;
+}
+
+.styledLinkContent--menu__category--lego::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/lego-brick.png);
+}
+
+.styledLinkContent--menu__category--proaspete::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/produse_proaspete.png);
+}
+
+.styledLinkContent--menu__category--bacanie::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/bacanie.png);
+}
+
+.styledLinkContent--menu__category--speciale::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/diete_speciale.png);
+}
+
+.styledLinkContent--menu__category--tutun::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/bauturi-tutun.png);
+}
+
+.styledLinkContent--menu__category--copii::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/bebe_si_copii.png);
+}
+
+.styledLinkContent--menu__category--frumusete::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/sanatate-si-frumusete.png);
+}
+
+.styledLinkContent--menu__category--bricolai::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/casa-auto-si-bricolai.png);
+}
+
+.styledLinkContent--menu__category--petshop::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/petshop.png);
+}
+
+.styledLinkContent--menu__category--gaming::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/it_telefoane_gaming.png);
+}
+
+.styledLinkContent--menu__category--electrocasnice::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/electronice_electrocasnice.png);
+}
+
+.styledLinkContent--menu__category--fashion::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/fashion.png);
+}
+
+.styledLinkContent--menu__category--liber::before {
+  content: url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/timp-libre.png);
 }
 
 .submenuContainer--container_subcategory {
@@ -65,6 +139,42 @@
 }
 
 .submenuWrapper--container_subcategory {
-  margin-left: 20px;
+  margin-left: 70px;
+  padding    : 0;
   border     : 0;
+}
+
+.submenuWrapper--container_subcategory :global(.vtex-rich-text-0-x-paragraph--example-title) {
+  margin        : 0;
+  padding-bottom: 10px;
+  padding-top   : 8px;
+}
+
+.submenuWrapper--container_subcategory :global(.vtex-rich-text-0-x-link--example-title) {
+  color          : #111c8b;
+  text-decoration: none;
+  font-weight    : 700;
+  font-size      : 12px;
+  text-decoration: none;
+
+}
+
+.styledLinkContainer--global__menu-links {
+  margin        : 0;
+  padding       : 0;
+  padding-bottom: 5px;
+}
+
+.styledLink--global__menu-links {
+  font-size  : 12px;
+  font-weight: 400;
+  transition: .3s all;
+  color          : #111c8b;
+}
+
+.styledLink--global__menu-links:hover{
+  background-image       : linear-gradient(45deg, #e90027, #111c8b);
+  background-size        : 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip   : text;
 }

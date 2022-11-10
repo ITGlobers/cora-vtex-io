@@ -41,7 +41,7 @@
 }
 
 .flexRowContent--footer__information {
-    padding-bottom: 2.35rem;
+    padding-bottom: 0.5rem;
     padding-top: 1.3rem;
 }
 
@@ -79,4 +79,75 @@
 
 .flexRowContent--footer__information :global(.vtex-rich-text-0-x-strong) {
     font-size: 14px;
+}
+
+.flexRow--footer__information--mobile :global(.vtex-store-components-3-x-container),
+.flexRow--footer__sections--copyright-partners :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+@media (max-width: 990px) {
+    .flexRow--footer__newsletter {
+        height: 212px;
+        position: relative;
+    }
+
+    .flexColChild--footer__newsletter--subscription {
+        z-index: 1;
+    }
+
+    .flexColChild--footer__newsletter--subscription {
+        width: 85%;
+        margin: auto;
+    }
+
+    .flexRowContent--footer__sections--socials {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #efefef;
+    }
+
+    .flexCol--footer__sections--copyright-partners {
+        background-color: #efefef;
+        padding-bottom: 50px;
+    }
+}
+
+.flexRowContent--footer__information--mobile {
+    padding-top: 10px;
+}
+
+.flexRowContent--disclosure__cora,
+.flexRowContent--disclosure__comenzi,
+.flexRowContent--disclosure__companie,
+.flexRowContent--disclosure__informati {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexRowContent--disclosure__cora :global(.vtex-store-icons-0-x-caretIcon),
+.flexRowContent--disclosure__comenzi :global(.vtex-store-icons-0-x-caretIcon),
+.flexRowContent--disclosure__companie :global(.vtex-store-icons-0-x-caretIcon),
+.flexRowContent--disclosure__informati :global(.vtex-store-icons-0-x-caretIcon) {
+    margin-right: 22px;
+    margin-top: 12px;
+    color: #111c8b;
+    width: 11px;
+}
+
+.flexCol--footer__information--mobile {
+    margin-bottom: 15px;
+}
+
+.flexRowContent--disclosure__cora :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child,
+.flexRowContent--disclosure__comenzi :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child,
+.flexRowContent--disclosure__companie  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child,
+.flexRowContent--disclosure__informati  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 100% !important;
+}
+
+.flexRow--footer__information--mobile,
+.flexRowContent--footer__sections--copyright-partners {
+    background-color: #efefef;
 }

@@ -105,7 +105,7 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf",
+      "ListSummary": "product-summary.shelf#global__product-summary-list",
       "GridSummary": "product-summary.shelf#global__product-summary"
     }
   },

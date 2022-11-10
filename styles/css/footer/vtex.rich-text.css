@@ -1,5 +1,5 @@
 .strong--subcription__title {
-    font-size: 35px;
+    font-size: 32px;
     color: #fff;
     text-align: center;
     line-height: 70px;
@@ -43,6 +43,9 @@
     margin: 0;
     border-right: 1px solid #111c8b;
     padding: 0 1rem;
+    height: 16.5px;
+    display: flex;
+    align-items: center;
 }
 
 .paragraph--termeni {
@@ -50,10 +53,50 @@
     border-right: 1px solid #111c8b;
     font-size: 14px;
     padding-right: 1rem;
+    height: 16.5px;
+    display: flex;
+    align-items: center;
 }
 
 .paragraph--SOL {
     margin: 0;
     font-size: 14px;
     padding-left: 1rem;
+    height: 16.5px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 990px) {
+    .strong--subcription__title {
+        font-size: 16px;
+        line-height: 0;
+    }
+
+    .paragraph--subcription__title {
+        font-size: 11px;
+    }
+
+    .paragraph--footer__information {
+        font-size: 10px;
+    }
+
+    .paragraph--copyright,
+    .paragraph--terms,
+    .paragraph--termeni,
+    .paragraph--SOL {
+        font-size: 10px;
+    }
+
+    .paragraph--terms {
+        padding: 0 0.8rem;
+    }
+
+    .paragraph--termeni {
+        padding-right: 0.8rem;
+    }
+
+    .paragraph--SOL {
+        padding-left: 0.8rem;
+    }
 }

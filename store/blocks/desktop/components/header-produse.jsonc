@@ -164,7 +164,7 @@
     "props": {
       "blockClass": [
         "menu__category",
-        "menu__category--bricolaj"
+        "menu__category--bricolai"
       ],
       "type": "custom",
       "iconId": null,
@@ -172,7 +172,7 @@
       "itemProps": {
         "type": "internal",
         "href": "/",
-        "text": "Casa, auto si bricolaj"
+        "text": "Casa, auto si bricolai"
       }
     }
   },

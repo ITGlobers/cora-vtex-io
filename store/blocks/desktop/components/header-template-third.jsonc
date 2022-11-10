@@ -20,7 +20,7 @@
   "rich-text#example-title":{
     "title":"Title Menu",
     "props":{
-      "text": "Fructe, legume si sucuri",
+      "text": "[Fructe, legume si sucuri](/)",
       "blockClass": "example-title"
     }
   },
