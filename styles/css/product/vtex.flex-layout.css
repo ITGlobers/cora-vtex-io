@@ -1,0 +1,144 @@
+.flexRow--productMain,
+.flexRow--tab-pdp {
+  width: calc(1200px - 24px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--productMain :global(.vtex-store-components-3-x-container),
+.flexRow--tab-pdp :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.flexRowContent--productMain {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+   background-color: #fff;
+   padding-left: 20px;
+   padding-right: 20px;
+   align-items: flex-start;
+}
+
+.flexCol--infoProduct {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--button-pdp :global(.vtex-button) {
+  position: relative;
+  border: none;
+  background: transparent linear-gradient(167deg,#111c8b 0,#e90027 100%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s all;
+  overflow: hidden;
+  min-height: 0;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.flexRowContent--button-pdp :global(.vtex-button__label) {
+  display: none;
+}
+
+.flexRowContent--button-pdp :global(.vtex-button__label)::after {
+  content: '';
+  position: absolute;
+  transition: opacity 1s ease;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent linear-gradient(167deg,#e90027 0,#111c8b 100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+.flexRowContent--button-pdp :global(.vtex-button)::before {
+  font-family: "cora-icons";
+  color: #fff;
+  content: '\E90D';
+  font-size: 23px;
+  padding: 0 8px;
+  z-index: 2;
+}
+
+.flexColChild--infoProduct :global(.vtex-wish-list-1-x-wishlistIconContainer--wishlist-pdp) :global(.vtex-button)::before {
+  font-size: 19px;
+  line-height: 28px;
+  color: #e7e8f3;
+  content: '\e912';
+  font-family: 'cora-icons';
+  background-color: transparent !important;
+}
+
+.flexColChild--infoProduct :global(.vtex-wish-list-1-x-wishlistIconContainer--wishlist-pdp) :global(.vtex-button):hover {
+  background-color: transparent !important;
+}
+
+.flexColChild--infoProduct :global(.vtex-wish-list-1-x-wishlistIconContainer--wishlist-pdp) :global(.vtex-wish-list-1-x-wishlistIcon--wishlist-pdp) {
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+  .flexRowContent--productMain {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px){
+  .flexRow--productMain,
+  .flexRow--tab-pdp,
+  .flexRow--flexBreadcrumb {
+    width: calc(320px - 12px * 2) !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px){
+  .flexRow--productMain,
+  .flexRow--tab-pdp,
+  .flexRow--flexBreadcrumb {
+    width: calc(370px - 12px * 2) !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+  .flexRow--productMain,
+  .flexRow--tab-pdp,
+  .flexRow--flexBreadcrumb {
+    width: calc(420px - 12px * 2) !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+  .flexRow--productMain,
+  .flexRow--tab-pdp,
+  .flexRow--flexBreadcrumb {
+    width: calc(770px - 12px * 2) !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+.flexRowContent--productMain :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .flexRow--productMain,
+  .flexRow--tab-pdp,
+  .flexRow--flexBreadcrumb {
+    width: calc(1000px - 5px * 2) !important;
+    margin: 0 auto;
+  }
+}
