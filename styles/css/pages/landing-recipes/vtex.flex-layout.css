@@ -1,0 +1,24 @@
+.flexRow--recipes__main--container{
+  margin: 1rem 0;
+}
+
+.flexCol--ingredients__container {
+  margin-right: 1rem;
+}
+
+.flexCol--steps__container{
+  padding-right: 2rem;
+}
+
+.flexRowContent--recipe__checkout--btn{
+  justify-content: center;
+}
+
+.flexRow--recipe__checkout--btn,
+.flexRow--recipe__text--content{
+  margin-bottom: 2rem;
+}
+
+.flexRowContent--recipes__main--container .stretchChildrenWidth{
+  align-items: center;
+}
