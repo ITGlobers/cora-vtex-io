@@ -1,6 +1,7 @@
 .flexRow--flexBreadcrumb,
 .flexRow--searchContent-container,
-.flexRow--slider-rich-plp {
+.flexRow--slider-rich-plp,
+.flexRow--banner {
   width: calc(1220px - 24px * 2);
   margin: 0 auto;
 }
@@ -15,7 +16,8 @@
   flex-direction: column;
 }
 
-.flexRowContent--slider-rich-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--slider-rich-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--banner :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
 }
 
@@ -26,9 +28,15 @@
 
 /* slider plp */
 /* filter */
-.flexRowContent--searchContent-container {
+.flexRowContent--searchContent-container,
+.flexRowContent--banner {
   display: flex;
   flex-direction: column;
+}
+
+.flexRow--banner :global(.vtex-store-components-3-x-container){
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .flexRowContent--searchContent-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -56,6 +64,11 @@
   margin-bottom: 60px;
 }
 /* gallery */
+
+/* banner search*/
+.flexRowContent--banner {
+  position: relative;
+}
 
 @media screen and (min-width: 300px) and (max-width: 320px){
   .flexRow--breadcrumb-mobile,
@@ -158,7 +171,8 @@
 @media screen and (min-width: 1360px) {
   .flexRow--flexBreadcrumb,
   .flexRow--searchContent-container,
-  .flexRow--slider-rich-plp {
+  .flexRow--slider-rich-plp,
+  .flexRow--banner {
     width: calc(1200px - 24px * 2);
     margin: 0 auto;
   }

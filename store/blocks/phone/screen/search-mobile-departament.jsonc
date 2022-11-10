@@ -1,0 +1,17 @@
+{
+  "search-result-layout.mobile#departament": {
+    "title": "search mobile departament",
+    "children": [
+      "flex-layout.row#searchbread#mobile",
+      "flex-layout.row#slider-rich-plp-mobile"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "defaultGalleryLayout": "grid"
+    }
+  }
+}
