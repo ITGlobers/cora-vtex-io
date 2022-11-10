@@ -172,7 +172,10 @@
       "loop": false,
       "autoPlay": false,
       "muted": true,
-      "src": "https://www.youtube.com/watch?v=U_PuhnKxw2U"
+      "src": "https://www.youtube.com/watch?v=U_PuhnKxw2U",
+      "blockClass":[
+        "recipe"
+      ]
     }
   }
 }

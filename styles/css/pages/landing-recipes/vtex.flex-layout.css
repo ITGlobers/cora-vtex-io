@@ -1,5 +1,5 @@
 .flexRow--recipes__main--container{
-  margin: 1rem 0;
+  margin: 3rem 0;
 }
 
 .flexCol--ingredients__container {
@@ -21,4 +21,12 @@
 
 .flexRowContent--recipes__main--container .stretchChildrenWidth{
   align-items: center;
+}
+
+.flexRowContent--recipe__checkout--btn:first-child{
+  justify-content: center;
+}
+
+.flexRow--recipe-video-container{
+  margin-bottom: 3rem;
 }
