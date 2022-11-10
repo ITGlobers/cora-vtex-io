@@ -14,9 +14,11 @@
     ],
     "props": {
       "blockClass": [
-        "recipes__main--container"
+        "recipes__main--container",
+        "standar-maxwidth"
       ],
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "fullWidth": true
     }
   },
 
