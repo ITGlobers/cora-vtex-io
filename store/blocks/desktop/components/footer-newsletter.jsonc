@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__newsletter": {
+    "title": "Newsletter Area",
     "children": [
       "flex-layout.col#footer__newsletter--image",
       "flex-layout.col#footer__newsletter--subscription"
@@ -9,6 +10,7 @@
     }
   },
   "flex-layout.col#footer__newsletter--image": {
+    "title": "Image Area",
     "children": [
       "image#subscribe__newsletter"
     ],
@@ -23,6 +25,7 @@
     }
   },
   "flex-layout.col#footer__newsletter--subscription": {
+    "title": "Form Area",
     "children": [
       "rich-text#subcription__title",
       "newsletter-form#footer__newsletter"

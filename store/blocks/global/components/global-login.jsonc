@@ -1,0 +1,38 @@
+{
+  "store.login": {
+    "blocks": [
+      "flex-layout.row#login"
+    ]
+  },
+
+  "flex-layout.row#login": {
+    "props": {
+      "blockClass": "login-contain"
+    },
+    "children": [
+      "login-content#default"
+    ]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "showPasswordVerificationIntoTooltip": true,
+      "emailAndPasswordTitle": "Sign In",
+      "accessCodeTitle": "Sign In",
+      "emailPlaceholder": "Your Email",
+      "passwordPlaceholder": "Your Password",
+      "optionsTitle": " "
+    }
+  },
+
+  "login#global__login": {
+    "props": {
+      "logInButtonBehavior": "link",
+      "accountOptionsButtonBehavior": "link",
+      "showPasswordVerificationIntoTooltip": false,
+      "mirrorTooltipToRight": false
+    }
+  }
+}
+

@@ -1,0 +1,19 @@
+.sliderLayoutContainer--slider-plp {
+  display: flex;
+  justify-content: center;
+}
+
+.sliderTrackContainer--slider-plp {
+  width: 1050px !important;
+}
+
+.caretIcon--slider-plp {
+  color: #C7C7C7;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .sliderTrackContainer--slider-plp-mobile {
+    width: 800px !important;
+  }
+}

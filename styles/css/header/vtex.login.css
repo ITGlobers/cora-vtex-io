@@ -1,0 +1,22 @@
+.container {
+  float: none;
+}
+
+.buttonLink :global(.vtex-button) {
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  font-size       : 0;
+  text-decoration : none;
+  background-color: transparent;
+}
+
+.buttonLink :global(.vtex-button)::before {
+  content: url(https://www.cora.ro/static/version1667889402/frontend/Exorigo/Cora/ro_RO/images/account.svg);
+  height : 28px;
+  width  : 28px;
+}
+
+.buttonLink :global(.vtex-button__label){
+  display: none;
+}
