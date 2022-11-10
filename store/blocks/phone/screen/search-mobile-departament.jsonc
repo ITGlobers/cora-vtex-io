@@ -4,7 +4,7 @@
     "children": [
       "flex-layout.row#searchbread#mobile",
       "flex-layout.row#banner-mobile-search",
-      "flex-layout.row#slider-rich-plp-mobile"
+      "flex-layout.row#slider-rich-plp"
     ],
     "props": {
       "mobileLayout": {
