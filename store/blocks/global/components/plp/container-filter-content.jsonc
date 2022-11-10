@@ -95,7 +95,7 @@
           "itemsPerRow": {
             "(min-width:1300px)": 4,
             "desktop": 4,
-            "tablet": 3,
+            "tablet": 2,
             "phone": 2
           }
         },
@@ -132,7 +132,8 @@
   "gallery-layout-option#grid": {
     "title": "gallery grid",
     "props": {
-      "name": "grid"
+      "name": "grid",
+      "blockClass": "grid"
     },
     "children": [
       "icon-grid"
@@ -146,7 +147,8 @@
   "gallery-layout-option#list": {
     "title": "gallery list",
     "props": {
-      "name": "list"
+      "name": "list",
+      "blockClass": "list"
     },
     "children": [
       "icon-inline-grid"

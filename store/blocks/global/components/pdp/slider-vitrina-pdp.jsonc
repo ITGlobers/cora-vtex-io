@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#slider-rich-pdp": {
+    "title": "container slider pdp",
+    "children":[
+      "rich-text#shelf-vitrina-pdp",
+      "flex-layout.col#slider-two"
+    ],
+    "props": {"blockClass": "slider-rich-plp"}
+  },
+  "rich-text#shelf-vitrina-pdp": {
+    "title": "title slider",
+    "props": {
+      "text": "Produse similare",
+      "blockClass": "title-slider--plp"
+    }
+  }
+}

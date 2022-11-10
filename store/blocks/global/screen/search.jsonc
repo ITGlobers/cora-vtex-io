@@ -68,5 +68,14 @@
     "props": {
       "fullWidth": true
     }
+  },
+
+  "search-result-layout#departament": {
+    "title": "search departament",
+    "blocks": [
+      "search-result-layout.desktop#departament",
+      "search-result-layout.mobile#departament",
+      "search-not-found-layout"
+    ]
   }
 }
