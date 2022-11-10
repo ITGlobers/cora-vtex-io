@@ -44,7 +44,8 @@
       "flex-layout.col#content__elements--produse"
     ],
     "props": {
-      "blockClass": "elements__produse"
+      "blockClass": "elements__produse",
+      "backdropMode": "none"
     }
   },
 
