@@ -1,0 +1,23 @@
+.inlineGridIcon--grid-inline {
+  display: none;
+}
+
+.gridIcon--grid {
+  display: none;
+}
+
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--grid)::before {
+  content: '\e90b';
+  font-family: 'cora-icons';
+  font-size: 28px;
+  color: #273896;
+
+}
+
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--list)::before {
+  content: '\e90a';
+  font-family: 'cora-icons';
+  font-size: 28px;
+  color: #273896;
+}
+
