@@ -1,0 +1,70 @@
+.styledLinkContainer--menu__department {
+  padding: 0;
+  margin : 0 15px;
+}
+
+.styledLink--menu__department {
+  color      : #ffffff;
+  font-size  : 12px;
+  font-weight: 700;
+  display    : flex;
+  align-items: center;
+}
+
+.menuItem--menu__department--first {
+  margin-right: 80px;
+}
+
+.styledLink--menu__department--first::before {
+  content     : '\e908';
+  font-size   : 15px;
+  line-height : inherit;
+  color       : #fff;
+  font-family : 'cora-icons';
+  margin-right: 10px;
+}
+
+.styledLink--menu__department--green {
+  color: #70c128;
+}
+
+
+/*MENU LINKS*/
+.submenuWrapper--container__menu--columns {
+  padding   : 10px;
+  margin-top: 10px;
+}
+
+.submenu--container__menu--columns {
+  max-width      : 1190px;
+  padding        : 0 5px;
+  margin         : auto;
+  position       : relative;
+  display        : flex;
+  justify-content: flex-start;
+}
+
+.submenu--container__menu--columns :global(.vtex-flex-layout-0-x-flexCol--submenu__items) {
+  max-width: 15%;
+}
+
+.styledLinkContent--menu__category {
+  display    : flex;
+  align-items: center;
+  font-size  : 12px;
+  font-weight: 700;
+  color      : #111c8b;
+}
+
+.submenuContainer--container_subcategory {
+  position: absolute;
+  right   : 0;
+  top     : 0;
+  width   : 85%;
+  height  : 100%;
+}
+
+.submenuWrapper--container_subcategory {
+  margin-left: 20px;
+  border     : 0;
+}

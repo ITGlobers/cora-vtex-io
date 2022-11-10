@@ -1,0 +1,113 @@
+{
+  "vtex.menu@2.x:submenu#items__one--third-level-one":{
+    "children":[
+      "flex-layout.col#one__third-level-one--example"
+    ],
+    "props":{
+      "width":"100%",
+      "blockClass":"container_subcategory"
+    }
+  },
+
+  "flex-layout.col#one__third-level-one--example":{
+    "title": "Content",
+    "children":[
+      "rich-text#example-title",
+      "vtex.menu@2.x:menu#example-links"
+    ]
+  },
+
+  "rich-text#example-title":{
+    "title":"Title Menu",
+    "props":{
+      "text": "Fructe, legume si sucuri",
+      "blockClass": "example-title"
+    }
+  },
+
+  "vtex.menu@2.x:menu#example-links":{
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Fructe"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Legume"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Salate si verdeturi"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Masline"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Bors si muraturi"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Sucuri proaspete"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Compoturi"
+          }
+        }
+      ],
+      "blockClass": "global__menu-links"
+    }
+  }
+}

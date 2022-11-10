@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#desktop__second-row": {
+    "title": "Header Second Row Desktop",
+    "children": [
+      "flex-layout.row#desktop__second-row--links",
+      "flex-layout.row#desktop__second-row--minicart"
+    ],
+    "props": {
+      "blockClass": [
+        "desktop__second-row",
+        "standar-maxwidth"
+      ],
+      "colSizing": "auto",
+      "fullWidth": true,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#desktop__second-row--links":{
+    "title": "Container Links Menu",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": [
+        "second-row__links"
+      ]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#second-row__links--items"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#second-row__links--items": {
+    "title": "Links First Level",
+    "props": {
+      "blockClass": "links__items",
+      "experimentalOptimizeRendering": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "menu-item#links__items--one",
+      "menu-item#links__items--two",
+      "menu-item#links__items--three",
+      "menu-item#links__items--four",
+      "menu-item#links__items--five",
+      "menu-item#links__items--six",
+      "menu-item#links__items--seven",
+      "menu-item#links__items--eight",
+      "menu-item#links__items--nine"
+    ]
+  },
+
+  "flex-layout.row#desktop__second-row--minicart":{
+    "title": "Container Minicart",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": [
+        "second-row__minicart"
+      ]
+    },
+    "children":[
+      "minicart.v2#global__minicart"
+    ]
+  }
+}
