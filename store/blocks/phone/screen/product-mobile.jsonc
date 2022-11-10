@@ -3,6 +3,8 @@
     "title": "product page mobile",
     "children": [
       "flex-layout.row#product-breadcrumb",
+      "condition-layout.product#availability",
+      "flex-layout.row#tab-pdp",
       "flex-layout.row#slider-rich-pdp"
     ]
   }
