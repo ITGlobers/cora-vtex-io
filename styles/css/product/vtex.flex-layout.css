@@ -128,11 +128,17 @@
   }
 }
 
+@media screen and (min-width: 300px) and (max-width: 768px){
+.flexRowContent--productMain :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px){
   .flexRow--productMain,
   .flexRow--tab-pdp,
   .flexRow--flexBreadcrumb {
-    width: calc(1000px - 5px * 2);
+    width: calc(1000px - 5px * 2) !important;
     margin: 0 auto;
   }
 }
