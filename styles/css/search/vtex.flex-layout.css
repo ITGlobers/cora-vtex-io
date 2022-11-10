@@ -7,7 +7,7 @@
 }
 
 .flexRow--flexBreadcrumb {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 /* slider plp */
@@ -44,7 +44,7 @@
 }
 
 .flexCol--filterCol {
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 /* filter */
@@ -116,6 +116,11 @@
     width: calc(770px - 12px * 2);
     margin: 0 auto;
   }
+
+  .flexRowContent--product-summary__qty-add {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
@@ -132,7 +137,15 @@
 
 @media screen and (min-width: 300px) and (max-width: 1024px){
   .flexRow--flexBreadcrumb {
-    padding-bottom: 30px;
+    padding-bottom: 0;
+  }
+
+  .flexRowContent--slider-rich-plp {
+    margin-top: 10px;
+  }
+
+  .flexRowContent--mobile-content {
+    margin-bottom: 20px;
   }
 
   .flexRow--breadcrumb-mobile :global(.vtex-store-components-3-x-container),
