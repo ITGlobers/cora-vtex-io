@@ -6,8 +6,7 @@
 .filtersWrapper--filter-horizontal {
   display: flex;
   flex-direction: row;
- /*  justify-content: flex-start; */
- justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .filter__container--filter-horizontal {
