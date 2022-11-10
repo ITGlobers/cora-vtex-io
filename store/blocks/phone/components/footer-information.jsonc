@@ -1,4 +1,21 @@
 {
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up",
+      "blockClass": "state--disclosure"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "down"
+    }
+  },
   "flex-layout.row#footer__information--mobile": {
     "children": [
       "flex-layout.col#footer__information--mobile"
@@ -8,6 +25,7 @@
     }
   },
   "flex-layout.col#footer__information--mobile": {
+    "title": "Disclosure's Area",
     "children": [
       "disclosure-layout#cora",
       "disclosure-layout#comenzi",
@@ -19,6 +37,7 @@
     }
   },
   "disclosure-layout#cora": {
+    "title": "Disclosure Cora",
     "children": [
       "flex-layout.row#disclosure__cora",
       "disclosure-content#cora"
@@ -31,9 +50,14 @@
     "children": [
       "disclosure-trigger#cora",
       "disclosure-state-indicator"
-    ]
+    ],
+    "props": {
+      "blockClass": "disclosure__cora",
+      "colSizing": "auto"
+    }
   },
   "disclosure-trigger#cora": {
+    "title": "Disclosure Trigger Cora",
     "children": [
       "rich-text#footer__information--cora"
     ],
@@ -42,6 +66,7 @@
     }
   },
   "disclosure-content#cora": {
+    "title": "Disclosure Content Cora",
     "children": [
       "rich-text#footer__information--cataloage",
       "rich-text#footer__information--promotii",
@@ -55,8 +80,9 @@
     }
   },
   "disclosure-layout#comenzi": {
+    "title": "Disclosure Comenzi",
     "children": [
-      "disclosure-trigger#comenzi",
+      "flex-layout.row#disclosure__comenzi",
       "disclosure-content#comenzi"
     ],
     "props": {
@@ -67,9 +93,14 @@
     "children": [
       "disclosure-trigger#comenzi",
       "disclosure-state-indicator"
-    ]
+    ],
+    "props": {
+      "blockClass": "disclosure__comenzi",
+      "colSizing": "auto"
+    }
   },
   "disclosure-trigger#comenzi": {
+    "title": "Disclosure Trigger Comenzi",
     "children": [
       "rich-text#footer__information--comenzi"
     ],
@@ -78,6 +109,7 @@
     }
   },
   "disclosure-content#comenzi": {
+    "title": "Disclosure Content Comenzi",
     "children": [
       "rich-text#footer__information--cum",
       "rich-text#footer__information--livrare",
@@ -90,8 +122,9 @@
     }
   },
   "disclosure-layout#companie": {
+    "title": "Disclosure Compani",
     "children": [
-      "disclosure-trigger#companie",
+      "flex-layout.row#disclosure__companie",
       "disclosure-content#companie"
     ],
     "props": {
@@ -102,9 +135,14 @@
     "children": [
       "disclosure-trigger#companie",
       "disclosure-state-indicator"
-    ]
+    ],
+    "props": {
+      "blockClass": "disclosure__companie",
+      "colSizing": "auto"
+    }
   },
   "disclosure-trigger#companie": {
+    "title": "Disclosure Trigger Compani",
     "children": [
       "rich-text#footer__information--companie"
     ],
@@ -113,6 +151,7 @@
     }
   },
   "disclosure-content#companie": {
+    "title": "Disclosure Content Compani",
     "children": [
       "rich-text#footer__information--valorile",
       "rich-text#footer__information--despre",
@@ -126,8 +165,9 @@
     }
   },
   "disclosure-layout#informati": {
+    "title": "Disclosure Informati",
     "children": [
-      "disclosure-trigger#informati",
+      "flex-layout.row#disclosure__informati",
       "disclosure-content#informati"
     ],
     "props": {
@@ -138,9 +178,14 @@
     "children": [
       "disclosure-trigger#informati",
       "disclosure-state-indicator"
-    ]
+    ],
+    "props": {
+      "blockClass": "disclosure__informati",
+      "colSizing": "auto"
+    }
   },
   "disclosure-trigger#informati": {
+    "title": "Disclosure Trigger Informati",
     "children": [
       "rich-text#footer__information--informati"
     ],
@@ -149,6 +194,7 @@
     }
   },
   "disclosure-content#informati": {
+    "title": "Disclosure Content Informati",
     "children": [
       "rich-text#footer__information--contact",
       "rich-text#footer__information--servicii-financiare",
