@@ -47,7 +47,8 @@
   "modal-layout#sticky__menu--content": {
     "title": "Content Modal",
     "children": [
-      "modal-header#search__content--close"
+      "modal-header#search__content--close",
+      "flex-layout.row#menu__content--elements"
     ],
     "props": {
       "blockClass": "search__content"

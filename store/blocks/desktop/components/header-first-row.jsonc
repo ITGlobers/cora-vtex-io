@@ -56,7 +56,8 @@
     "title": "Link Wishlist",
     "props": {
       "href": "/account",
-      "label": "wish"
+      "label": "wish",
+      "blockClass": "logo-search__wishlist"
     }
   },
   "flex-layout.col#first-row__logo-search--login": {

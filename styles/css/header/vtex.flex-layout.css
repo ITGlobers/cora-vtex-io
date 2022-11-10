@@ -21,7 +21,8 @@
   padding: 0;
 }
 
-.flexRowContent--first-row__logo-search :global(.vtex-store-link-0-x-link) {
+.flexRowContent--first-row__logo-search :global(.vtex-store-link-0-x-link),
+:global(.vtex-store-link-0-x-link--logo-search__wishlist) {
   height         : 100%;
   display        : flex;
   align-items    : center;
@@ -30,7 +31,7 @@
   text-decoration: none;
 }
 
-.flexRowContent--first-row__logo-search :global(.vtex-store-link-0-x-link)::after {
+:global(.vtex-store-link-0-x-link--logo-search__wishlist)::after {
   content: url(https://www.cora.ro/static/version1667889402/frontend/Exorigo/Cora/ro_RO/images/wishlist.svg);
   height : 28px;
   width  : 28px;
