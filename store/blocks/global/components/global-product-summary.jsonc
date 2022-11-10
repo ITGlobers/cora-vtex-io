@@ -3,7 +3,9 @@
     "children": [
       "product-summary-image#global__product-summary--image",
       "product-summary-name",
+      "product-summary-space",
       "product-rating-inline",
+      "product-summary-space",
       "product-summary-brand",
       "product-summary-space",
       "product-list-price#global__product-summary--list",
@@ -48,6 +50,13 @@
   "product-summary-quantity": {
     "props": {
       "showLabel": false
+    }
+  },
+
+  "add-to-cart-button": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button"
     }
   }
 }

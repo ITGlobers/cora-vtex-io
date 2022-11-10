@@ -1,0 +1,74 @@
+.headerDeliveryAddressButton {
+  border          : 1px solid #e8e9f4;
+  background-color: transparent;
+  border-radius   : 20px;
+  height          : 36px;
+  padding         : 0 20px;
+}
+
+.headerDeliveryAddressButton::before {
+  background-image     : url(https://www.cora.ro/static/version1667889402/frontend/Exorigo/Cora/ro_RO/images/sl_store.svg);
+  background-position-x: 0;
+  background-position-y: 0;
+  line-height          : 12px;
+  vertical-align       : middle;
+  height               : 12px;
+  width                : 20px;
+  background-repeat    : no-repeat;
+  content              : '';
+  display              : inline-block;
+  margin-right         : 5px;
+}
+
+.headerDeliveryMethod,
+.headerDeliveryAddress {
+  font-size  : 9px;
+  color      : #111c8b;
+  font-weight: 400;
+}
+
+.changeAddressIcon {
+  background-color: #111c8b;
+  border-radius   : 50%;
+}
+
+.logoContainer :global(.vtex-render-runtime-8-x-lazyload) {
+  display: none;
+}
+
+.logoContainer::after {
+  content            : "";
+  background-image   : url(https://www.cora.ro/media/logo/default/logo_new_cora_1.png);
+  width              : 117px;
+  height             : 39px;
+  background-size    : contain;
+  display            : block;
+  background-position: center;
+  background-repeat  : no-repeat;
+}
+
+.storeIcons :global(.vtex-render-runtime-8-x-lazyload) {
+  display: none;
+}
+
+.storeIcons::after {
+  content            : "";
+  background-image   : url(https://www.cora.ro/static/version1667889402/frontend/Exorigo/Cora/ro_RO/images/sl_store.svg);
+  width              : 36px;
+  height             : 36px;
+  background-size    : contain;
+  display            : block;
+  background-position: center;
+  background-repeat  : no-repeat;
+}
+
+.darkButton :global(.vtex-button) {
+  background-color: #1f2a91;
+  border          : 1px solid #1f2a91;
+  transition      : .3s all;
+}
+
+.darkButton :global(.vtex-button):hover {
+  background-color: transparent;
+  color           : #111c8b;
+}

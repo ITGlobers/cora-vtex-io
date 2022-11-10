@@ -1,0 +1,121 @@
+.openIconContainer--elements__produse {
+  display        : flex;
+  align-items    : center;
+  font-size      : 12px;
+  font-weight    : 700;
+  color          : #111c8b;
+  white-space    : break-spaces;
+  justify-content: space-between;
+  font-size      : 12px;
+  transition     : .3s all;
+  width          : 100%;
+  padding        : 0;
+}
+
+.openIconContainer--elements__produse .menuIcon--elements__produse {
+  display: none;
+}
+
+.openIconContainer--elements__produse::after {
+  font-size  : 20px;
+  line-height: inherit;
+  color      : #111c8b;
+  content    : '\e917';
+  font-family: 'cora-icons';
+  transform  : rotate(90deg);
+}
+
+.openIconContainer--elements__produse::before {
+  content              : "Produse proaspete";
+  padding-left         : 42px;
+  background-repeat    : no-repeat;
+  background-position-y: center;
+  background-position-x: 2px;
+  height               : 30px;
+  display              : flex;
+  align-items          : center;
+  background-image     : url(https://www.cora.ro//media/.renditions/wysiwyg/TopMenuIcons/produse_proaspete.png);
+}
+
+/*CONTENT*/
+.drawer--elements__produse {
+  width    : 100% !important;
+  max-width: 100% !important;
+  top      : 105px;
+}
+
+.closeIconButton--elements__produse {
+  padding    : 0;
+  display    : flex;
+  align-items: center;
+  width      : 100%;
+  padding    : 15px 10px;
+}
+
+.closeIconButton--elements__produse .closeIcon {
+  display: none;
+}
+
+.closeIconButton--elements__produse::before {
+  font-size  : 20px;
+  line-height: 20px;
+  color      : #111c8b;
+  content    : '\e917';
+  font-family: 'cora-icons';
+  transform  : rotate(-90deg);
+}
+
+.closeIconButton--elements__produse::after {
+  content    : "Inapoi";
+  margin-left: 15px;
+  color      : #111c8b;
+  font-size  : 12px;
+  font-weight: 700;
+}
+
+
+.childrenContainer--elements__produse :global(.vtex-disclosure-layout-1-x-trigger) {
+  background-color: transparent;
+  border          : none;
+  width           : 100%;
+  display         : flex;
+  align-items     : center;
+  justify-content : space-between;
+}
+
+.childrenContainer--elements__produse :global(.vtex-disclosure-layout-1-x-trigger)::after {
+  color      : #111c8b;
+  content    : '\e917';
+  font-family: 'cora-icons';
+  transition : .3s all;
+  font-size  : 20px;
+  transform  : rotate(180deg);
+}
+
+.childrenContainer--elements__produse :global(.vtex-disclosure-layout-1-x-trigger--visible)::after {
+  transform: rotate(0);
+}
+
+.childrenContainer--elements__produse :global(.vtex-rich-text-0-x-paragraph--example-title) {
+  color       : #111c8b;
+  font-size   : 12px;
+  font-weight : 700;
+  margin      : 10px 0;
+  padding-left: 15px;
+}
+
+.childrenContainer--elements__produse :global(.vtex-menu-2-x-menuContainer--global__menu-links) {
+  padding: 0 35px;
+}
+
+.childrenContainer--elements__produse :global(.vtex-menu-2-x-menuItem--global__menu-links) {
+  margin: 10px 0;
+}
+
+.childrenContainer--elements__produse :global(.vtex-menu-2-x-menuItem--global__menu-links) :global(.vtex-menu-2-x-styledLink) {
+  color: #575757;
+}
+
+.childrenContainer--elements__produse :global(.vtex-menu-2-x-menuItem--global__menu-links):first-child :global(.vtex-menu-2-x-styledLink) {
+  font-weight: 700;
+}

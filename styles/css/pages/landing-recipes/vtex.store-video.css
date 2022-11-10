@@ -1,0 +1,14 @@
+.videoContainer--recipe {
+  display: flex;
+  justify-content: center;
+}
+
+.videoElement--recipe {
+  width: 70%;
+}
+
+@media screen and (max-width: 640px) {
+  .videoElement--recipe {
+    width: 100%;
+  }
+}

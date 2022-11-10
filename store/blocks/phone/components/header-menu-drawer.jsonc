@@ -1,0 +1,181 @@
+{
+  "flex-layout.row#menu__content--elements": {
+    "title": "Container Elements",
+    "children": [
+      "flex-layout.col#menu__content--elements"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#menu__content--elements": {
+    "title": "Drawers Elements",
+    "children": [
+      "link#first-row__logo-search--wishlist",
+      "rich-text#content__elements--title-drawer",
+      "delivery-methods",
+      "menu-item#submenu-one__items--one",
+      "drawer#content__elements--produse",
+      "menu-item#submenu-one__items--three",
+      "menu-item#submenu-one__items--four",
+      "menu-item#submenu-one__items--five",
+      "menu-item#submenu-one__items--six",
+      "menu-item#submenu-one__items--seven",
+      "menu-item#submenu-one__items--eight",
+      "menu-item#submenu-one__items--nine",
+      "menu-item#submenu-one__items--ten",
+      "menu-item#submenu-one__items--eleven",
+      "menu-item#submenu-one__items--twelve",
+      "menu-item#submenu-one__items--thirteen"
+    ]
+  },
+
+  "rich-text#content__elements--title-drawer": {
+    "title": "Title Modal Menu",
+    "props": {
+      "text": "MENIU",
+      "blockClass": "elements__title-drawer"
+    }
+  },
+
+  "drawer#content__elements--produse": {
+    "children": [
+      "flex-layout.col#content__elements--produse"
+    ],
+    "props": {
+      "blockClass": "elements__produse",
+      "backdropMode": "none"
+    }
+  },
+
+  "flex-layout.col#content__elements--produse":{
+    "children": [
+      "disclosure-layout#elements__produse--example"
+    ]
+  },
+
+  "disclosure-layout#elements__produse--example": {
+    "children": [
+      "disclosure-trigger#produse__example--trigger",
+      "disclosure-content#produse__example--content"
+    ]
+  },
+
+  "disclosure-trigger#produse__example--trigger": {
+    "children": [
+      "rich-text#example__trigger--title"
+    ]
+  },
+
+  "disclosure-content#produse__example--content": {
+    "children": [
+      "vtex.menu@2.x:menu#example__content--links"
+    ]
+  },
+
+  "rich-text#example__trigger--title": {
+    "title": "Title Menu",
+    "props": {
+      "text": "Fructe, legume si sucuri",
+      "blockClass": "example-title"
+    }
+  },
+
+  "vtex.menu@2.x:menu#example__content--links": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Vezi tot"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Fructe"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Legume"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Salate si verdeturi"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Masline"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Bors si muraturi"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Sucuri proaspete"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Compoturi"
+          }
+        }
+      ],
+      "blockClass": "global__menu-links"
+    }
+  }
+}

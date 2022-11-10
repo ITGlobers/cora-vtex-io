@@ -6,8 +6,12 @@
   padding: 0;
 }
 
-.openIconContainer :global(.vtex-button){
+.openIconContainer :global(.vtex-button) {
   background-color: transparent;
+}
+
+.openIconContainer :global(.vtex-button__label) {
+  padding: 0;
 }
 
 .minicartIconContainer {

@@ -16,6 +16,7 @@
 .flexRowContent--product-summary__qty-add :global(.vtex-numeric-stepper-container) {
   border-radius: 20px;
   overflow     : hidden;
+  width        : fit-content;
 }
 
 .flexRowContent--product-summary__qty-add :global(.vtex-numeric-stepper__plus-button-container),
@@ -55,6 +56,7 @@
   overflow       : hidden;
   min-height     : 0;
   height         : 30px;
+  margin-left    : 5px;
 }
 
 .flexRowContent--product-summary__qty-add :global(.vtex-button)::after {
@@ -79,7 +81,7 @@
   color      : #fff;
   content    : '\E90D';
   font-size  : 14px;
-  padding: 0 8px;
+  padding    : 0 8px;
   z-index    : 2;
 }
 

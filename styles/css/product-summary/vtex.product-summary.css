@@ -29,7 +29,8 @@
 }
 
 .container--global__product-summary .productBrandContainer {
-  text-align: left;
+  text-align   : left;
+  margin-bottom: 10px;
 }
 
 .container--global__product-summary .productBrandName {
@@ -61,6 +62,33 @@
   height: 18px;
 }
 
-.container--global__product-summary :global(.vtex-wish-list-1-x-outline) {
-  filter: grayscale(100%);
+.container--global__product-summary-list {
+  max-width: 100% !important;
+}
+
+.container--global__product-summary-list .productBrandContainer {
+  text-align   : center;
+  margin-bottom: 10px;
+}
+
+.container--global__product-summary-list :global(.vtex-flex-layout-0-x-flexRowContent--product-summary__qty-add) {
+  flex-direction: column;
+  width         : fit-content;
+}
+
+:global(.vtex-wish-list-1-x-outline) {
+  background: none;
+}
+
+:global(.vtex-wish-list-1-x-outline)::before {
+  font-size  : 19px;
+  line-height: inherit;
+  color      : #e7e8f3;
+  content    : '\e912';
+  font-family: 'cora-icons';
+  transition: all;
+}
+
+:global(.vtex-wish-list-1-x-outline):hover::before {
+  color: #ed1c24;
 }
