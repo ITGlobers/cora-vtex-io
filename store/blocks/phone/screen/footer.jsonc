@@ -1,0 +1,18 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer__newsletter",
+      "flex-layout.row#footer__information--mobile",
+      "flex-layout.row#footer__sections--socials",
+      "flex-layout.row#footer__sections--copyright-partners"
+    ]
+  },
+  "flex-layout.row#footer__sections--copyright-partners": {
+    "children": [
+      "flex-layout.col#footer__sections--copyright-partners"
+    ],
+    "props": {
+      "blockClass": "footer__sections--copyright-partners"
+    }
+  }
+}

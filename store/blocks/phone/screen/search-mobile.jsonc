@@ -4,10 +4,10 @@
     "children": [
       "flex-layout.row#searchbread#mobile",
       "flex-layout.row#productCountMobile",
-      "flex-layout.row#fetchprevious",
+       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
-      "flex-layout.row#slider-rich-plp-mobile"
+      "flex-layout.row#slider-rich-plp"
     ],
     "props": {
       "pagination": "show-more",
