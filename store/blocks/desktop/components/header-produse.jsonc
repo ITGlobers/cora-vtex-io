@@ -1,0 +1,269 @@
+{
+  "vtex.menu@2.x:submenu#items__one--submenu-one": {
+    "title": "Second Level Item",
+    "props": {
+      "width": "100%",
+      "blockClass": "container__menu--columns"
+    },
+    "children": [
+      "flex-layout.col#one__submenu-one--items"
+    ]
+  },
+  "flex-layout.col#one__submenu-one--items": {
+    "children": [
+      "menu-item#submenu-one__items--one",
+      "menu-item#submenu-one__items--two",
+      "menu-item#submenu-one__items--three",
+      "menu-item#submenu-one__items--four",
+      "menu-item#submenu-one__items--five",
+      "menu-item#submenu-one__items--six",
+      "menu-item#submenu-one__items--seven",
+      "menu-item#submenu-one__items--eight",
+      "menu-item#submenu-one__items--nine",
+      "menu-item#submenu-one__items--ten",
+      "menu-item#submenu-one__items--eleven",
+      "menu-item#submenu-one__items--twelve",
+      "menu-item#submenu-one__items--thirteen"
+    ],
+    "props": {
+      "blockClass": "submenu__items"
+    }
+  },
+
+  "menu-item#submenu-one__items--one": {
+    "title": "Link Second Level One",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--lego"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "LEGO shop"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--two": {
+    "title": "Link Second Level Two",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--proaspete"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Produse proaspete"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#items__one--third-level-one"
+    ]
+  },
+
+  "menu-item#submenu-one__items--three": {
+    "title": "Link Second Level Three",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--bacanie"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Bacanie"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--four": {
+    "title": "Link Second Level Four",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--speciale"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Diete Speciale si suplimente"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--five": {
+    "title": "Link Second Level Five",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--tutun"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Bauturi si tutun"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--six": {
+    "title": "Link Second Level Six",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--copii"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Bebe & copii"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--seven": {
+    "title": "Link Second Level Seven",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--frumusete"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Sanatate si frumusete"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--eight": {
+    "title": "Link Second Level Eight",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--bricolaj"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Casa, auto si bricolaj"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--nine": {
+    "title": "Link Second Level Nine",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--petshop"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Petshop"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--ten": {
+    "title": "Link Second Level ten",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--gaming"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "IT, telefoane & gaming"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--eleven": {
+    "title": "Link Second Level Eleven",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--electrocasnice"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Electronice & Electrocasnice"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--twelve": {
+    "title": "Link Second Level Twelve",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--fashion"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Fashion"
+      }
+    }
+  },
+
+  "menu-item#submenu-one__items--thirteen": {
+    "title": "Link Second Level Thirteen",
+    "props": {
+      "blockClass": [
+        "menu__category",
+        "menu__category--liber"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "text": "Timp liber"
+      }
+    }
+  }
+}

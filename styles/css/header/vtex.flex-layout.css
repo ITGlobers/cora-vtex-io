@@ -1,3 +1,4 @@
+/*FIRST ROW*/
 .flexRowContent--desktop__first-row {
   align-items  : center;
   height       : 59px;
@@ -17,7 +18,7 @@
 }
 
 .flexRowContent--first-row__logo-search :global(.vtex-store-components-3-x-logoContainer) {
-  padding    : 0;
+  padding: 0;
 }
 
 .flexRowContent--first-row__logo-search :global(.vtex-store-link-0-x-link) {
@@ -40,7 +41,6 @@
 }
 
 /*MOBILE*/
-
 .flexRowContent--mobile__first-row {
   position: relative;
   margin  : 0 0 10px;
@@ -70,7 +70,6 @@
 }
 
 /*MOBILE FIXED*/
-
 .flexRow--first-row__sticky {
   border       : 1px solid #e8e9f4;
   display      : flex;
@@ -119,4 +118,20 @@
 
 .flexRow--first-row__sticky :global(.vtex-store-components-3-x-resultsList) {
   border: none;
+}
+
+/*SECOND ROW*/
+.flexRow--desktop__second-row {
+  background : #1f2a91;
+  padding    : 12px 0;
+  padding-top: 14px;
+  height     : 40px;
+}
+
+.flexRow--second-row__minicart {
+  height       : 33px;
+  background   : #f1f8fe;
+  padding      : 0 15px;
+  border-radius: 20px;
+  margin-top   : -10px;
 }

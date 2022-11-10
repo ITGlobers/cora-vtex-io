@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+.openIconContainer :global(.vtex-button){
+  background-color: transparent;
+}
+
 .minicartIconContainer {
   display        : flex;
   justify-content: center;

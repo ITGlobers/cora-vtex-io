@@ -1,0 +1,168 @@
+{
+  "menu-item#links__items--one": {
+    "title": "Link First Level One",
+    "props": {
+      "blockClass": [
+        "menu__department",
+        "menu__department--first"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Produse"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#items__one--submenu-one"
+    ]
+  },
+
+  "menu-item#links__items--two": {
+    "title": "Link First Level Two",
+    "props": {
+      "blockClass": [
+        "menu__department"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Cataloage"
+      }
+    }
+  },
+
+  "menu-item#links__items--three": {
+    "title": "Link First Level Three",
+    "props": {
+      "blockClass": [
+        "menu__department"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "HiperOferte"
+      }
+    }
+  },
+
+  "menu-item#links__items--four": {
+    "title": "Link First Level Four",
+    "props": {
+      "blockClass": [
+        "menu__department",
+        "menu__department--green"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Bio"
+      }
+    }
+  },
+
+  "menu-item#links__items--five": {
+    "title": "Link First Level Five",
+    "props": {
+      "blockClass": [
+        "menu__department"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Alege romaneste"
+      }
+    }
+  },
+
+  "menu-item#links__items--six": {
+    "title": "Link First Level Six",
+    "props": {
+      "blockClass": [
+        "menu__department"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Marcile cora"
+      }
+    }
+  },
+
+  "menu-item#links__items--seven": {
+    "title": "Link First Level Six",
+    "props": {
+      "blockClass": [
+        "menu__department"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "B2B"
+      }
+    }
+  },
+
+  "menu-item#links__items--eight": {
+    "title": "Link First Level Eight",
+    "props": {
+      "blockClass": [
+        "menu__department"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Cariere"
+      }
+    }
+  },
+
+  "menu-item#links__items--nine": {
+    "title": "Link First Level Nine",
+    "props": {
+      "blockClass": [
+        "menu__department"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Contact"
+      }
+    }
+  }
+}
