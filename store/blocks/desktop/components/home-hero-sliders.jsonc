@@ -28,8 +28,7 @@
       "callToActionText": "Comanda acum",
       "callToActionUrl": "/",
       "textAlignment": "center",
-      "blockClass": "hero__slider--one",
-      "imageActionUrl": "/"
+      "blockClass": "hero__slider--one"
     }
   },
   "info-card#hero__slider--two": {
@@ -41,8 +40,7 @@
       "callToActionText": "Comanda acum",
       "callToActionUrl": "/",
       "textAlignment": "center",
-      "blockClass": "hero__slider--two",
-      "imageActionUrl": "/"
+      "blockClass": "hero__slider--two"
     }
   },
   "info-card#hero__slider--three": {
@@ -54,8 +52,7 @@
       "callToActionText": "Comanda acum",
       "callToActionUrl": "/",
       "textAlignment": "center",
-      "blockClass": "hero__slider--three",
-      "imageActionUrl": "/"
+      "blockClass": "hero__slider--three"
     }
   }
 }

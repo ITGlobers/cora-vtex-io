@@ -96,7 +96,8 @@
       "image#ANPC"
     ],
     "props": {
-      "blockClass": "partners"
+      "blockClass": "partners",
+      "colSizing": "auto"
     }
   },
   "image#SOL": {
