@@ -69,7 +69,7 @@
   "link#cart": {
     "props": {
       "displayMode": "button",
-      "href": "https://preprod--cora.myvtex.com/checkout/#/cart",
+      "href": "https://cora.myvtex.com/checkout/#/cart",
       "label": "Vezi coșul de cumpărături",
       "blockClass": "link-cart-btn"
     }
