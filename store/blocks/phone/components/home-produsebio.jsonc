@@ -1,5 +1,6 @@
 {
   "flex-layout.row#produseBIO__banner--mobile": {
+    "title": "Banner Produse BIO",
     "children": [
       "flex-layout.col#produseBIO__banner--mobile"
     ],

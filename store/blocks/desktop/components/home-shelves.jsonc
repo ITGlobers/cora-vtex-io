@@ -1,5 +1,6 @@
 {
   "flex-layout.row#product__shelve--one": {
+    "title": "Slider product shelve - container",
     "children": [
       "flex-layout.col#product__shelve--one"
     ],
@@ -23,6 +24,7 @@
     }
   },
   "list-context.product-list#product__shelve--one": {
+    "title": "Slider one",
     "blocks": [
       "product-summary.shelf#global__product-summary"
     ],
@@ -48,6 +50,7 @@
   },
 
   "flex-layout.row#product__shelve--two": {
+    "title": "Slider two - container",
     "children": [
       "flex-layout.col#product__shelve--two"
     ],
@@ -71,6 +74,7 @@
     }
   },
   "list-context.product-list#product__shelve--two": {
+    "title": "Slider two",
     "blocks": [
       "product-summary.shelf#global__product-summary"
     ],

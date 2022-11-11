@@ -1,5 +1,6 @@
 {
   "flex-layout.row#download__cora--mobile": {
+    "title": "Banner Download CORA APP",
     "children": [
       "flex-layout.col#download__cora",
       "flex-layout.col#download__cora--banner--mobile"

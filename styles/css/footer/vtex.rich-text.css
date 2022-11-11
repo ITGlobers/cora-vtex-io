@@ -99,4 +99,9 @@
     .paragraph--SOL {
         padding-left: 0.8rem;
     }
+
+    .container--copyright {
+        display: flex;
+        justify-content: center;
+    }
 }

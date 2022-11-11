@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile": {
+    "title": "Mobile view",
     "children": [
       "slider-layout#hero__sliders",
       "flex-layout.row#product__shelve--one",

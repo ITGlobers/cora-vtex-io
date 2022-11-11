@@ -134,33 +134,41 @@
   },
   "image#facebook": {
     "props": {
-      "blockClass": "facebook",
+      "blockClass": "socials",
       "src": "assets/img/facebook.png",
-      "link": "http://facebook.com/corahipermarket",
+      "link": {
+        "src": "http://facebook.com/corahipermarket"
+      },
       "maxHeight": 28
     }
   },
   "image#youtube": {
     "props": {
-      "blockClass": "youtube",
+      "blockClass": "socials",
       "src": "assets/img/youtube.png",
-      "link": "https://www.youtube.com/channel/UCZR2Z5xeY4t8eee7XGMF5Wg",
+      "link": {
+        "src": "https://www.youtube.com/channel/UCZR2Z5xeY4t8eee7XGMF5Wg"
+      },
       "maxHeight": 28
     }
   },
   "image#instagram": {
     "props": {
-      "blockClass": "instagram",
+      "blockClass": "socials",
       "src": "assets/img/instagram.png",
-      "link": "https://www.instagram.com/cora_romania/",
+      "link": {
+        "src": "https://www.instagram.com/cora_romania/"
+      },
       "maxHeight": 28
     }
   },
   "image#blogger": {
     "props": {
-      "blockClass": "blogger",
+      "blockClass": "socials",
       "src": "assets/img/blogger.png",
-      "link": "https://www.blog.cora.ro/",
+      "link": {
+        "src": "https://www.blog.cora.ro/"
+      },
       "maxHeight": 28
     }
   }

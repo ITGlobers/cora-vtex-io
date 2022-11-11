@@ -86,6 +86,10 @@
     padding: 0;
 }
 
+.flexRowContent--footer__sections--socials {
+    gap: 8px;
+}
+
 @media (max-width: 990px) {
     .flexRow--footer__newsletter {
         height: 212px;
@@ -103,13 +107,22 @@
 
     .flexRowContent--footer__sections--socials {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         background-color: #efefef;
     }
 
     .flexCol--footer__sections--copyright-partners {
         background-color: #efefef;
         padding-bottom: 50px;
+    }
+
+    .container--copyright {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--terms {
+        justify-content: center;
     }
 }
 
