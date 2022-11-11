@@ -1,5 +1,6 @@
 {
   "flex-layout.row#fourth__banners": {
+    "title": "Fourth banners - container",
     "children": [
       "flex-layout.col#fourth__banners--one",
       "flex-layout.col#fourth__banners--two",
@@ -11,6 +12,7 @@
     }
   },
   "flex-layout.col#fourth__banners--one": {
+    "title": "Banner one",
     "children": [
       "rich-text#banner__one",
       "image#banner__one"
@@ -38,6 +40,7 @@
     }
   },
   "flex-layout.col#fourth__banners--two": {
+    "title": "Banner two",
     "children": [
       "rich-text#banner__two",
       "image#banner__two"
@@ -65,6 +68,7 @@
     }
   },
   "flex-layout.col#fourth__banners--three": {
+    "title": "Banner three",
     "children": [
       "rich-text#banner__three",
       "image#banner__three"
@@ -92,6 +96,7 @@
     }
   },
   "flex-layout.col#fourth__banners--fourth": {
+    "title": "Banner fourth",
     "children": [
       "rich-text#banner__fourth",
       "image#banner__fourth"
@@ -119,6 +124,7 @@
     }
   },
   "flex-layout.row#shelve__banner": {
+    "title": "Products list + Banner",
     "children": [
       "list-context.product-list#shelve__banner",
       "image#shelve__banner"
@@ -162,9 +168,8 @@
       }
     }
   },
-
-  ///////////////////////////////////////////////////////////////////////////////////////////////////
   "flex-layout.row#kidokida__banner": {
+    "title": "Kido and Kida Banner",
     "children": [
       "flex-layout.col#kidokida__banner"
     ],
@@ -197,8 +202,8 @@
       }
     }
   },
-
   "flex-layout.row#produseBIO__banner": {
+    "title": "Produse BIO + Banner",
     "children": [
       "flex-layout.col#produseBIO__banner"
     ],
