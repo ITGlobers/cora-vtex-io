@@ -1,6 +1,7 @@
 /*FIRST ROW*/
-.flexRow--standar-maxwidth {
+.flexRow--desktop__first-row {
   background-color: #fff;
+  border-bottom: 2px solid #111c8b;
 }
 
 .flexRowContent--desktop__first-row {
