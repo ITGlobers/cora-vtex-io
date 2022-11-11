@@ -27,3 +27,12 @@
 .paragraph--kidokida__banner {
     margin-bottom: 20px;
 }
+
+.paragraph--product__shelve--two:hover,
+.paragraph--produseBIO__banner:hover,
+.paragraph--kidokida__banner:hover,
+.paragraph--product__shelve--one:hover,
+.paragraph--banner__home:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

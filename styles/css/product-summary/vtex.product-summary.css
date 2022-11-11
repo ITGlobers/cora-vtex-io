@@ -86,11 +86,16 @@
   color      : #e7e8f3;
   content    : '\e912';
   font-family: 'cora-icons';
-  transition: all;
+  transition : all;
 }
 
 :global(.vtex-wish-list-1-x-outline):hover::before {
   color: #ed1c24;
+}
+
+
+.container--global__product-summary-list .nameContainer {
+  max-width: 200px;
 }
 
 .element--global__product-summary :global(.vtex-reviews-and-ratings-3-x-star--filled) {
@@ -99,4 +104,12 @@
 
 .element--global__product-summary  :global(.vtex-reviews-and-ratings-3-x-star--empty ) {
   color: #c9c9c9;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .container--global__product-summary-list .nameContainer {
+    max-width: 100%;
+  }
+
 }

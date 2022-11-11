@@ -57,14 +57,23 @@
 }
 
 .newsletterForm--footer__newsletter {
-    width: 100%;
+  width: 100%;
+}
+
+.defaultSuccessMessage--footer__newsletter {
+  color: #fff;
+  margin: auto;
+  margin-top: 50px;
 }
 
 @media (max-width: 990px) {
   .formSubmitContainer--footer__submit :global(.vtex-button) {
-      width: 120px;
+    width: 120px;
   }
   .formSubmitContainer--footer__submit :global(.vtex-button__label) {
-      font-size: 10px;
+    font-size: 10px;
+  }
+  .emailInputContainer--footer__email :global(.vtex-styleguide-9-x-input) {
+    font-size: 8px;
   }
 }
