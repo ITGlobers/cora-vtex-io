@@ -1,0 +1,72 @@
+.flexRow--fourth__banners,
+.flexRow--kidokida__banner,
+.flexRow--produseBIO__banner,
+.flexRow--download__cora,
+.flexRow--product__shelve--one,
+.flexRow--product__shelve--two,
+.flexRow--shelve__banner {
+    max-width: 1150px;
+    width: 100%;
+    margin: auto;
+}
+
+.flexRow--download__cora,
+.flexRow--shelve__banner,
+.flexRow--produseBIO__banner {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.flexColChild--fourth__banners {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--download__cora {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexRowContent--download__cora--mobile {
+    position: relative;
+}
+
+.flexCol--download__cora {
+    position: absolute;
+    top: 75px;
+    left: 65px;
+    width: auto !important;
+    height: auto;
+}
+
+.flexRowContent--download__cora--buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 13px;
+}
+
+.flexColChild--download__cora {
+    height: auto !important;
+}
+
+.flexRow--download__cora--mobile {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.flexColChild--download__cora--banner--mobile {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 990px) {
+    .flexRow--produseBIO__banner {
+        margin-bottom: 20px;
+    }
+
+    .flexRowContent--shelve__banner {
+        display: flex;
+        flex-direction: column;
+    }
+}

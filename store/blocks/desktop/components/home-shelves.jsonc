@@ -1,0 +1,96 @@
+{
+  "flex-layout.row#product__shelve--one": {
+    "children": [
+      "flex-layout.col#product__shelve--one"
+    ],
+    "props": {
+      "blockClass": "product__shelve--one"
+    }
+  },
+  "flex-layout.col#product__shelve--one": {
+    "children": [
+      "rich-text#product__shelve--one",
+      "list-context.product-list#product__shelve--one"
+    ],
+    "props": {
+      "blockClass": "product__shelve--one"
+    }
+  },
+  "rich-text#product__shelve--one": {
+    "props": {
+      "text": "**Prinde toate ofertele din noul catalog cora!**",
+      "blockClass": "product__shelve--one"
+    }
+  },
+  "list-context.product-list#product__shelve--one": {
+    "blocks": [
+      "product-summary.shelf#global__product-summary"
+    ],
+    "children": [
+      "slider-layout#product__shelve--one"
+    ],
+    "props": {
+      "blockClass": "product__shelve--one",
+      "orderBy": "OrderByBestDiscountDESC"
+    }
+  },
+  "slider-layout#product__shelve--one": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "product__shelve--one"
+    }
+  },
+
+  "flex-layout.row#product__shelve--two": {
+    "children": [
+      "flex-layout.col#product__shelve--two"
+    ],
+    "props": {
+      "blockClass": "product__shelve--two"
+    }
+  },
+  "flex-layout.col#product__shelve--two": {
+    "children": [
+      "rich-text#product__shelve--two",
+      "list-context.product-list#product__shelve--two"
+    ],
+    "props": {
+      "blockClass": "product__shelve--two"
+    }
+  },
+  "rich-text#product__shelve--two": {
+    "props": {
+      "text": "**Produse recomandate**",
+      "blockClass": "product__shelve--two"
+    }
+  },
+  "list-context.product-list#product__shelve--two": {
+    "blocks": [
+      "product-summary.shelf#global__product-summary"
+    ],
+    "children": [
+      "slider-layout#product__shelve--two"
+    ],
+    "props": {
+      "blockClass": "product__shelve--two"
+    }
+  },
+  "slider-layout#product__shelve--two": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "product__shelve--two"
+    }
+  }
+}

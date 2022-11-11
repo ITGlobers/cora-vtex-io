@@ -152,7 +152,7 @@
     "props": {
       "blockClass": "instagram",
       "src": "assets/img/instagram.png",
-      "link": "ttps://www.instagram.com/cora_romania/",
+      "link": "https://www.instagram.com/cora_romania/",
       "maxHeight": 28
     }
   },

@@ -1,0 +1,234 @@
+{
+  "flex-layout.row#fourth__banners": {
+    "children": [
+      "flex-layout.col#fourth__banners--one",
+      "flex-layout.col#fourth__banners--two",
+      "flex-layout.col#fourth__banners--three",
+      "flex-layout.col#fourth__banners--fourth"
+    ],
+    "props": {
+      "blockClass": "fourth__banners"
+    }
+  },
+  "flex-layout.col#fourth__banners--one": {
+    "children": [
+      "rich-text#banner__one",
+      "image#banner__one"
+    ],
+    "props": {
+      "blockClass": "fourth__banners"
+    }
+  },
+  "rich-text#banner__one": {
+    "props": {
+      "text": "**Promotii si tombole**",
+      "blockClass": "banner__home",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#banner__one": {
+    "props": {
+      "src": "assets/img/row-4-banners-1.jpg",
+      "blockClass": "banner__home",
+      "link": {
+        "url": "https://www.cora.ro/",
+        "newTab": true
+      }
+    }
+  },
+  "flex-layout.col#fourth__banners--two": {
+    "children": [
+      "rich-text#banner__two",
+      "image#banner__two"
+    ],
+    "props": {
+      "blockClass": "fourth__banners"
+    }
+  },
+  "rich-text#banner__two": {
+    "props": {
+      "text": "**cora express**",
+      "blockClass": "banner__home",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#banner__two": {
+    "props": {
+      "src": "assets/img/row-4-banners-2.jpg",
+      "blockClass": "banner__home",
+      "link": {
+        "url": "https://www.cora.ro/",
+        "newTab": true
+      }
+    }
+  },
+  "flex-layout.col#fourth__banners--three": {
+    "children": [
+      "rich-text#banner__three",
+      "image#banner__three"
+    ],
+    "props": {
+      "blockClass": "fourth__banners"
+    }
+  },
+  "rich-text#banner__three": {
+    "props": {
+      "text": "**cora Urban**",
+      "blockClass": "banner__home",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#banner__three": {
+    "props": {
+      "src": "assets/img/row-4-banners-3.jpg",
+      "blockClass": "banner__home",
+      "link": {
+        "url": "https://www.cora.ro/",
+        "newTab": true
+      }
+    }
+  },
+  "flex-layout.col#fourth__banners--fourth": {
+    "children": [
+      "rich-text#banner__fourth",
+      "image#banner__fourth"
+    ],
+    "props": {
+      "blockClass": "fourth__banners"
+    }
+  },
+  "rich-text#banner__fourth": {
+    "props": {
+      "text": "**Responsabilitate sociala**",
+      "blockClass": "banner__home",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#banner__fourth": {
+    "props": {
+      "src": "assets/img/row-4-banners-4.jpg",
+      "blockClass": "banner__home",
+      "link": {
+        "url": "https://www.cora.ro/",
+        "newTab": true
+      }
+    }
+  },
+  "flex-layout.row#shelve__banner": {
+    "children": [
+      "list-context.product-list#shelve__banner",
+      "image#shelve__banner"
+    ],
+    "props": {
+      "blockClass": "shelve__banner",
+      "colSizing": "auto"
+    }
+  },
+  "list-context.product-list#shelve__banner": {
+    "blocks": [
+      "product-summary.shelf#global__product-summary"
+    ],
+    "children": [
+      "slider-layout#shelve__banner"
+    ],
+    "props": {
+      "blockClass": "shelve__banner",
+      "orderBy": "OrderByNameASC"
+    }
+  },
+  "slider-layout#shelve__banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelve__banner"
+    }
+  },
+  "image#shelve__banner": {
+    "props": {
+      "src": "assets/img/PC-banner.jpg",
+      "blockClass": "shelve__banner",
+      "link": {
+        "url": "https://www.cora.ro/",
+        "newTab": true
+      }
+    }
+  },
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////
+  "flex-layout.row#kidokida__banner": {
+    "children": [
+      "flex-layout.col#kidokida__banner"
+    ],
+    "props": {
+      "blockClass": "kidokida__banner"
+    }
+  },
+  "flex-layout.col#kidokida__banner": {
+    "children": [
+      "rich-text#kidokida__banner",
+      "image#kidokida__banner"
+    ],
+    "props": {
+      "blockClass": "kidokida__banner"
+    }
+  },
+  "rich-text#kidokida__banner": {
+    "props": {
+      "text": "Fa cunostinta cu Kido&Kida!",
+      "blockClass": "kidokida__banner"
+    }
+  },
+  "image#kidokida__banner": {
+    "props": {
+      "src": "assets/img/Kido&Kida-banner.jpg",
+      "blockClass": "kidokida__banner",
+      "link": {
+        "url": "https://www.cora.ro/",
+        "newTab": true
+      }
+    }
+  },
+
+  "flex-layout.row#produseBIO__banner": {
+    "children": [
+      "flex-layout.col#produseBIO__banner"
+    ],
+    "props": {
+      "blockClass": "produseBIO__banner"
+    }
+  },
+  "flex-layout.col#produseBIO__banner": {
+    "children": [
+      "rich-text#produseBIO__banner",
+      "image#produseBIO__banner"
+    ],
+    "props": {
+      "blockClass": "produseBIO__banner"
+    }
+  },
+  "rich-text#produseBIO__banner": {
+    "props": {
+      "text": "**BioBogatie**",
+      "blockClass": "produseBIO__banner"
+    }
+  },
+  "image#produseBIO__banner": {
+    "props": {
+      "src": "assets/img/ProduseBIO-banner-desktop.jpg",
+      "blockClass": "produseBIO__banner",
+      "link": {
+        "url": "https://www.cora.ro/",
+        "newTab": true
+      }
+    }
+  }
+}

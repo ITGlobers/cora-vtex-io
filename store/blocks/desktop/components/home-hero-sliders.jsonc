@@ -1,0 +1,57 @@
+{
+  "slider-layout#hero__sliders": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "hero__sliders"
+    },
+    "children": [
+      "info-card#hero__slider--one",
+      "info-card#hero__slider--two",
+      "info-card#hero__slider--three"
+    ]
+  },
+  "info-card#hero__slider--one": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/img/hero-slider-1-desktop.jpg",
+      "mobileImageUrl": "assets/img/hero-slider-1-mobile.jpg",
+      "callToActionText": "Comanda acum",
+      "callToActionUrl": "/",
+      "textAlignment": "center",
+      "blockClass": "hero__slider--one",
+      "imageActionUrl": "/"
+    }
+  },
+  "info-card#hero__slider--two": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/img/hero-slider-2-desktop.jpg",
+      "mobileImageUrl": "assets/img/hero-slider-2-mobile.jpg",
+      "callToActionText": "Comanda acum",
+      "callToActionUrl": "/",
+      "textAlignment": "center",
+      "blockClass": "hero__slider--two",
+      "imageActionUrl": "/"
+    }
+  },
+  "info-card#hero__slider--three": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "assets/img/hero-slider-3-desktop.jpg",
+      "mobileImageUrl": "assets/img/hero-slider-3-mobile.jpg",
+      "callToActionText": "Comanda acum",
+      "callToActionUrl": "/",
+      "textAlignment": "center",
+      "blockClass": "hero__slider--three",
+      "imageActionUrl": "/"
+    }
+  }
+}

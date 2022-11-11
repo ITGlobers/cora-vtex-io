@@ -1,0 +1,75 @@
+{
+  "flex-layout.row#download__cora": {
+    "children": [
+      "flex-layout.col#download__cora",
+      "flex-layout.col#download__cora--banner"
+    ],
+    "props": {
+      "blockClass": "download__cora"
+    }
+  },
+  "flex-layout.col#download__cora": {
+    "children": [
+      "rich-text#download__cora",
+      "flex-layout.row#download__cora--buttons"
+    ],
+    "props": {
+      "blockClass": "download__cora"
+    }
+  },
+  "rich-text#download__cora": {
+    "props": {
+      "text": "**Descopera aplicatia cora Romania** \n Disponibila pe:",
+      "blockClass": "download__cora"
+    }
+  },
+  "flex-layout.row#download__cora--buttons": {
+    "children": [
+      "image#download__cora--google",
+      "image#download__cora--apple"
+    ],
+    "props": {
+      "blockClass": "download__cora--buttons",
+      "colSizing": "auto"
+    }
+  },
+  "image#download__cora--google": {
+    "props": {
+      "src": "assets/img/google-play.jpg",
+      "blockClass": "download__apps",
+      "link": {
+        "url": "https://www.cora.ro/aplicatia-cora-romania",
+        "newTab": true
+      }
+    }
+  },
+  "image#download__cora--apple": {
+    "props": {
+      "src": "assets/img/app-store.jpg",
+      "blockClass": "download__apps",
+      "link": {
+        "url": "https://www.cora.ro/aplicatia-cora-romania",
+        "newTab": true
+      }
+    }
+  },
+  "flex-layout.col#download__cora--banner": {
+    "children": [
+      "image#download__cora"
+    ],
+    "props": {
+      "blockClass": "download__cora--banner",
+      "width": "55%"
+    }
+  },
+  "image#download__cora": {
+    "props": {
+      "src": "assets/img/download-cora-app-desktop.jpg",
+      "blockClass": "download__cora",
+      "link": {
+        "url": "https://www.cora.ro/aplicatia-cora-romania",
+        "newTab": true
+      }
+    }
+  }
+}
