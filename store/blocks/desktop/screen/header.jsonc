@@ -2,8 +2,14 @@
   "header-layout.desktop": {
     "title":"Header Desktop",
     "children": [
-      "flex-layout.row#desktop__first-row",
+      "sticky-layout#desktop__first-row",
       "flex-layout.row#desktop__second-row"
+    ]
+  },
+
+  "sticky-layout#desktop__first-row":{
+    "children":[
+      "flex-layout.row#desktop__first-row"
     ]
   }
 }

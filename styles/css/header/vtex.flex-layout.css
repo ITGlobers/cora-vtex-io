@@ -1,4 +1,8 @@
 /*FIRST ROW*/
+.flexRow--standar-maxwidth {
+  background-color: #fff;
+}
+
 .flexRowContent--desktop__first-row {
   align-items  : center;
   height       : 59px;
@@ -150,4 +154,10 @@
   .flexRow--desktop__second-row :global(.vtex-menu-2-x-menuItem--menu__department--first) {
     display: none;
   }
+}
+
+
+.flexRow--link-cart-btn {
+  padding      : 0 20px;
+  margin-bottom: 5px;
 }
