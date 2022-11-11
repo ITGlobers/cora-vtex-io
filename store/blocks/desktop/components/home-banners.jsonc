@@ -155,7 +155,8 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelve__banner"
+      "blockClass": "shelve__banner",
+      "showPaginationDots": "never"
     }
   },
   "image#shelve__banner": {
