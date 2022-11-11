@@ -11,7 +11,7 @@
   "breadcrumb": {
     "props": {
       "showOnMobile": true,
-      "blockClass": "breadcrumbPdp"
+      "blockClass": ["breadcrumbPdp", "mobile"]
     }
   }
 }

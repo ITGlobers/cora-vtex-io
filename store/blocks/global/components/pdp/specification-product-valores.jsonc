@@ -1,0 +1,71 @@
+{
+  "product-specification-group#valores": {
+    "title": "specification valores",
+    "children": ["flex-layout.row#spec-group-valores"],
+    "props":{
+      "blockClass": "productSpecification-valores",
+      "filter": {
+        "type": "show",
+        "specificationGroups": ["Valori nutritionales"]
+      }
+    }
+  },
+  "flex-layout.row#spec-group-valores": {
+    "props": {
+      "blockClass": "productSpecificationGroup-valores"
+    },
+    "children": ["flex-layout.col#spec-group-valores"]
+  },
+  "flex-layout.col#spec-group-valores": {
+    "children": ["product-specification#valores"],
+    "props": {
+      "blockClass": "productSpecification-valores"
+    }
+  },
+  "product-specification#valores": {
+    "children": ["flex-layout.row#spec-item-valores"],
+    "props": {
+      "blockClass": "productSpecification-valores"
+    }
+  },
+  "flex-layout.row#spec-item-valores": {
+    "props": {
+      "blockClass": "productSpecification-valores"
+    },
+    "children": ["flex-layout.col#spec-name-valores", "flex-layout.col#spec-value-valores"]
+  },
+  "flex-layout.col#spec-name-valores": {
+    "props": {
+      "blockClass": "productSpecificationName-valores",
+      "width": {
+        "mobile": "50%",
+        "desktop": "25%"
+      }
+    },
+    "children": ["product-specification-text#specification"]
+  },
+  "flex-layout.col#spec-value-valores": {
+    "props": {
+      "blockClass": "productSpecificationValue-valores"
+    },
+    "children": ["product-specification-values#valores"]
+  },
+  "product-specification-values#valores": {
+    "children": ["product-specification-text#value-valores"],
+    "props": {
+      "blockClass": "productSpecificationValue-valores"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "productSpecificationValue-valores"
+    }
+  },
+  "product-specification-text#value-valores": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "productSpecificationValue-valores-one"
+    }
+  }
+}

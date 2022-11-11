@@ -70,7 +70,7 @@
     "props": {
       "displayMode": "button",
       "href": "https://cora.myvtex.com/checkout/#/cart",
-      "label": "View Shopping Cart",
+      "label": "Vezi coșul de cumpărături",
       "blockClass": "link-cart-btn"
     }
   },
@@ -113,7 +113,7 @@
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Your cart is empty."
+      "text": "Coșul dumneavoastră este gol."
     }
   }
 }

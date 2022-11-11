@@ -1,0 +1,104 @@
+{
+  "flex-layout.row#tab-pdp": {
+    "title": "container tab product",
+    "children": ["tab-layout#product"],
+    "props": {"blockClass": "tab-pdp"}
+  },
+  "tab-layout#product": {
+    "children": [
+      "tab-list#product-specification",
+      "tab-content#product-specification"
+    ],
+    "props": {
+      "blockClass": "product-specification",
+      "defaultActiveTabId": "tab1"
+    }
+  },
+  "tab-list#product-specification": {
+    "children": [
+      "tab-list.item#product-1",
+      "tab-list.item#product-2",
+      "tab-list.item#product-3",
+      "tab-list.item#product-4"
+    ],
+    "props":{"blockClass":"product-specification"}
+  },
+  "tab-list.item#product-1": {
+    "props": {
+      "tabId": "tab1",
+      "label": "Descriere",
+      "defaultActiveTab": true,
+      "blockClass":"product-specification"
+    }
+  },
+  "tab-list.item#product-2": {
+    "props": {
+      "tabId": "tab2",
+      "label": "Ingrediente",
+      "blockClass":"product-specification"
+    }
+  },
+  "tab-list.item#product-3": {
+    "props": {
+      "tabId": "tab3",
+      "label": "Valori nutritionale",
+      "blockClass":"product-specification"
+    }
+  },
+  "tab-list.item#product-4": {
+    "props": {
+      "tabId": "tab4",
+      "label": "Recenzii produs",
+      "blockClass":"product-specification"
+    }
+  },
+  "tab-content#product-specification": {
+    "children": [
+      "tab-content.item#product1",
+      "tab-content.item#product2",
+      "tab-content.item#product3",
+      "tab-content.item#product4"
+    ],
+    "props":{"blockClass": "product-specification"}
+  },
+  "tab-content.item#product1": {
+    "children": ["product-description#pdp"],
+    "props": {
+      "tabId": "tab1",
+      "blockClass": "product-specification"
+    }
+  },
+  "tab-content.item#product2": {
+    "children": ["product-specification-group#ingrediente"],
+    "props": {
+      "tabId": "tab2",
+      "blockClass": "product-specification"
+    }
+  },
+  "tab-content.item#product3": {
+    "children": ["product-specification-group#valores"],
+    "props": {
+      "tabId": "tab3",
+      "blockClass": ["product-specification", "valores"]
+    }
+  },
+  "tab-content.item#product4": {
+    "children": ["product-reviews"],
+    "props": {
+      "tabId": "tab4",
+      "blockClass": "product-specification"
+    }
+  },
+  "product-reviews":{
+    "props":{
+      "blockClass": "pdp"
+    }
+  },
+  "product-description#pdp": {
+    "props":{
+      "showTitle": false,
+      "blockClass": "description-pdp",
+      "collapseContent": true
+    }
+  }
+}

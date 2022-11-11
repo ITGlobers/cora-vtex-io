@@ -17,6 +17,7 @@
   border-radius: 20px;
   overflow     : hidden;
   width        : fit-content;
+  margin       : auto;
 }
 
 .flexRowContent--product-summary__qty-add :global(.vtex-numeric-stepper__plus-button-container),
@@ -87,4 +88,10 @@
 
 .flexRowContent--product-summary__qty-add :global(.vtex-button__label) {
   display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .flexRowContent--product-summary__qty-add :global(.vtex-button) {
+    margin-left: 0;
+  }
 }

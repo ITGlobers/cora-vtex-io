@@ -62,7 +62,7 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "width": "56%",
       "rowGap": 0,
       "blockClass": "image"
     }
@@ -109,9 +109,28 @@
       "product-identifier.product",
       "flex-layout.row#product-name",
       "product-rating-summary",
-      "product-selling-price",
-      "flex-layout.row#button-pdp"
+      "flex-layout.row#qty-add",
+      "flex-layout.row#button-pdp",
+      "rich-text#detail"
     ]
+  },
+
+  "flex-layout.row#qty-add": {
+    "children": [
+      "product-selling-price",
+      "product-summary-quantity"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": ["product-summary__qty-add", "price-qty"]
+    }
+  },
+
+  "rich-text#detail": {
+    "props": {
+      "text": "Produsele sunt comercializate in ambalajul original al producatorului, iar imaginile acestora sunt cu titlu de prezentare. In unele cazuri, produsele livrate pot prezenta abateri minore de la pozele si descrierile prezentate. Producatorii pot opera modificari fara sa fim avizati in prealabil.",
+      "blockClass": "pdp-detail"
+    }
   },
 
   "add-to-list-btn#pdp": {

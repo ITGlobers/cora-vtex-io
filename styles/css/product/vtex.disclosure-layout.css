@@ -1,0 +1,98 @@
+.trigger--container-specification-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  width: 100%;
+  height: 38px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.content--container-specification-mobile--visible {
+  background: #fff;
+  border-radius: 12px;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.trigger--container-specification-mobile--hidden :global(.vtex-store-icons-0-x-caretIcon),
+.trigger--container-specification-mobile--visible :global(.vtex-store-icons-0-x-caretIcon) {
+  color: #111c8b;
+  width: 10px;
+  height: 10px;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+  color: #111c8b;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 700;
+  border: none;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-graphTextLabel) {
+  color: #111c8b;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-graphBarPercent) {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage),
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount) {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-starsContainer),
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-writeReviewButton),
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy) :global(.vtex-dropdown__caption),
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-input__label),
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-textarea__label) {
+  font-size: 0.8rem;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex__icon-caret-down),
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex__icon-caret-up),
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex__icon-caret-up),
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex__icon-caret-down)  {
+  width: 12px;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-formSubmit) :global(.vtex-button) :global(.vtex-butto__label) {
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-graphBar){
+  background-color: #ed1c24;
+  border-radius: 20px;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex-reviews-and-ratings-3-x-reviewCommentRating) :global(.vtex-reviews-and-ratings-3-x-reviewCommentUser),
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex-reviews-and-ratings-3-x-reviewCommentRating) :global(.vtex-reviews-and-ratings-3-x-stars) {
+  font-size: 0.9rem !important;
+}
+
+.content--container-specification-mobile--visible :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+  font-size: 0.8rem;
+}
