@@ -14,12 +14,7 @@
   },
 /* availability */
   "flex-layout.row#product-availability": {
-    "props": {
-      "colGap": 7,
-      "marginTop": 4,
-      "marginBottom": 7,
-      "paddingTop": 7
-    },
+    "props": {"blockClass": ["productMain"]},
     "children": [
       "flex-layout.col#stack",
       "flex-layout.col#right-col-availability"
@@ -32,8 +27,8 @@
       "blockClass": "info-availability"
     },
     "children": [
-      "flex-layout.row#product-name",
       "product-identifier.product",
+      "flex-layout.row#product-name",
       "sku-selector",
       "flex-layout.row#availability"
     ]

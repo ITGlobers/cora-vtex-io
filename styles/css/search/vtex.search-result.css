@@ -4,36 +4,36 @@
 }
 
 .filtersWrapper--filter-horizontal {
-  display        : flex;
-  flex-direction : row;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-start;
 }
 
 .filter__container--filter-horizontal {
-  border      : none;
+  border: none;
   margin-right: 10px;
 }
 
 .filterAvailable--filter-horizontal {
-  background    : #fff;
-  margin-bottom : 10px;
-  border-radius : 20px;
-  padding-left  : 15px;
-  padding-top   : 0.5rem;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
 .filterTitleSpan--filter-horizontal {
-  font-size     : 0.8rem;
-  color         : #273896;
-  font-weight   : 500;
+  font-size: 0.8rem;
+  color: #273896;
+  font-weight: 500;
   text-transform: capitalize;
 }
 
 .caretIcon--filter-horizontal {
-  width : 8px;
+  width: 8px;
   height: 8px;
-  color : #273896;
+  color: #273896;
 }
 
 .filterItem--filter-horizontal :global(.vtex-checkbox__label) {
@@ -58,19 +58,19 @@
 }
 
 .priceRangeInputWrapper--filter-horizontal :global(.vtex-button) :global(.vtex-button__label) {
-  font-size     : 0.8rem;
+  font-size: 0.8rem;
   text-transform: capitalize;
 }
 
 .priceRangeInput--filter-horizontal :global(.vtex-input-prefix__group) {
-  border-radius   : 20px;
-  width           : 120px;
+  border-radius: 20px;
+  width: 120px;
   background-color: #fafafa;
-  border          : 1px solid #d9dbec;
+  border: 1px solid #d9dbec;
 }
 
 .filterSelected--filter-horizontal {
-  padding-top   : 0.5rem;
+  padding-top: 0.5rem;
   padding-bottom: 0;
 }
 
@@ -85,19 +85,19 @@
 }
 
 .totalProducts--layout {
-  padding-top   : 0;
+  padding-top: 0;
   padding-bottom: 0;
 }
 
 .totalProductsMessage {
-  font-size     : 0.8rem;
-  color         : #273896;
+  font-size: 0.8rem;
+  color: #273896;
   text-transform: capitalize;
 }
 
 .totalProducts--layout {
   font-size: 0.8rem;
-  color    : #273896;
+  color: #273896;
 }
 
 .totalProducts--layout::before {
@@ -105,32 +105,32 @@
 }
 
 .totalProductsMessage::before {
-  content     : ")";
+  content: ")";
   margin-right: 5px;
-  margin-left : -3px;
+  margin-left: -3px;
 }
 
 .totalProductsMessage::after {
-  content    : "rezultate";
+  content: "rezultate";
   margin-left: 5px;
 }
 
 .galleryLayoutSwitcher {
-  background   : #fff;
+  background: #fff;
   margin-bottom: 10px;
   border-radius: 20px;
-  padding      : 8px;
+  padding: 8px;
 }
 
 .totalProducts--layout {
-  padding-left  : 15px;
+  padding-left: 15px;
   padding-bottom: 10px;
 }
 
 .orderByText {
   /* font-size: 0.8rem; */
-  font-size     : 0;
-  color         : #273896;
+  font-size: 0;
+  color: #273896;
   text-transform: capitalize;
 }
 
@@ -140,9 +140,9 @@
 
 .filterPopupArrowIcon {
   background-color: #fff;
-  border-radius   : 20px;
-  padding         : 5px 15px;
-  margin-left     : 10px;
+  border-radius: 20px;
+  padding: 5px 15px;
+  margin-left: 10px;
 }
 
 .gallery--grid {
@@ -150,12 +150,21 @@
 }
 
 .galleryItem--normal {
-  padding-left : 0;
+  padding-left: 0;
   padding-right: 0;
 }
 
 .buttonShowMore :global(.vtex-button__label) {
   text-transform: capitalize;
+}
+
+.orderByOptionItem {
+  font-size: 0.8rem;
+}
+
+.orderByOptionItem:hover {
+  background-color: #273896;
+  color: #fff;
 }
 
 /* gallery */
@@ -179,10 +188,10 @@
   }
 
   .totalProducts--layout {
-    padding-left  : 0;
+    padding-left: 0;
     padding-bottom: 0;
-    text-align    : start;
-    padding-left  : 10px;
+    text-align: start;
+    padding-left: 10px;
   }
 
   .filterIcon--filter-horizontal {
@@ -190,10 +199,10 @@
   }
 
   .filterPopupArrowIcon--filter-horizontal::before {
-    content    : '\e919';
+    content: '\e919';
     font-family: 'cora-icons';
-    font-size  : 28px;
-    color      : #273896;
+    font-size: 28px;
+    color: #273896;
   }
 
 }
@@ -214,10 +223,10 @@
   }
 
   .galleryItem :global(.vtex-product-summary-2-x-container--global__product-summary-list) :global(.vtex-flex-layout-0-x-flexRowContent--product-summary__qty-add) {
-    display       : flex;
+    display: flex;
     flex-direction: row;
-    margin        : auto;
-    margin-top    : 15px;
+    margin: auto;
+    margin-top: 15px;
   }
 }
 
@@ -231,10 +240,10 @@
   }
 
   .galleryItem :global(.vtex-product-summary-2-x-container--global__product-summary-list) :global(.vtex-flex-layout-0-x-flexRowContent--product-summary__qty-add) {
-    display       : flex;
+    display: flex;
     flex-direction: row;
-    margin        : auto;
-    margin-top    : 15px;
+    margin: auto;
+    margin-top: 15px;
   }
 }
 
@@ -248,10 +257,10 @@
   }
 
   .galleryItem :global(.vtex-product-summary-2-x-container--global__product-summary-list) :global(.vtex-flex-layout-0-x-flexRowContent--product-summary__qty-add) {
-    display       : flex;
+    display: flex;
     flex-direction: row;
-    margin        : auto;
-    margin-top    : 15px;
+    margin: auto;
+    margin-top: 15px;
   }
 }
 
@@ -265,11 +274,12 @@
   }
 
   .galleryItem :global(.vtex-product-summary-2-x-container--global__product-summary-list) :global(.vtex-flex-layout-0-x-flexRowContent--product-summary__qty-add) {
-    display       : flex;
+    display: flex;
     flex-direction: row;
-    margin        : auto;
-    margin-top    : 15px;
+    margin: auto;
+    margin-top: 15px;
   }
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
@@ -279,6 +289,44 @@
 
   .orderByOptionsContainer {
     left: -140px;
-    top : 50px;
+    top: 50px;
+  }
+
+  .filterBreadcrumbsItemName--filter-horizontal,
+  .filterBreadcrumbsText--filter-horizontal,
+  .accordionFilterItemTitle--filter-horizontal,
+  .filterAccordionItemBox :global(.vtex-checkbox__label) {
+    font-size: 1rem;
+  }
+
+  .accordionFilterItemOptions {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .priceRangeInput--filter-horizontal :global(.vtex-input-prefix__group) {
+    width: 80px;
+  }
+
+  .sidebar {
+    width: 280px;
+  }
+}
+
+
+@media screen and (min-width: 1025px) {
+  .filter__container--priceRange {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .filter__container--priceRange .filterTemplateOverflow--filter-horizontal {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  .filter__container--priceRange .filterAvailable--filter-horizontal {
+    width: 120px;
+    height: 30px;
   }
 }
