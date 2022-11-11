@@ -31,3 +31,22 @@
 .flexRow--recipe-video-container {
   margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 641px) {
+  .flexRowContent--recipe__text--content {
+    margin-top: 2rem;
+  }
+
+  .flexCol--steps__container,
+  .flexCol--ingredients__container {
+    padding: 0 3rem;
+  }
+
+  .flexRowContent--recipe__checkout--btn {
+    padding: 0 !important;
+  }
+
+  .flexRowContent--recipe__checkout--btn:first-child {
+    justify-content: center !important;
+  }
+}

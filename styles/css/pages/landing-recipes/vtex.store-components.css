@@ -1,0 +1,7 @@
+/* ---------------------------------- Mobile ---------------------------------------*/
+
+@media screen and(max-width: 641px) {
+  .imageElement--recipe__image {
+    margin-bottom: 2rem;
+  }
+}
