@@ -5,6 +5,12 @@
     margin-left: 10px;
 }
 
+.imageElement--SOL,
+.imageElement--ANPC {
+    width: 187px;
+    height: 37px;
+}
+
 @media (max-width: 990px) {
     .imageElement--subscribe__newsletter {
         position: absolute;

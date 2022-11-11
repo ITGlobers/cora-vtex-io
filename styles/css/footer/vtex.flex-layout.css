@@ -90,6 +90,10 @@
     gap: 8px;
 }
 
+.flexRowContent--partners {
+    justify-content: center;
+}
+
 @media (max-width: 990px) {
     .flexRow--footer__newsletter {
         height: 212px;
