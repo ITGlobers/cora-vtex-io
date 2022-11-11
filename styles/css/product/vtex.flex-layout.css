@@ -197,6 +197,33 @@
   width: 50% !important;
 }
 
+/* quantity */
+.flexRowContent--price-qty {
+  margin-top: 0 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--price-qty :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 40% !important;
+  padding-right: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--price-qty) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 60% !important;
+  padding-right: 0;
+}
+.flexRowContent--price-qty :global(.vtex-product-quantity-1-x-summaryContainer) {
+  width: 70% !important;
+  margin-left: -90px;
+}
+
+.flexRowContent--price-qty :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  margin-bottom: 0;
+}
+/* quantity */
+
 @media screen and (min-width: 300px) and (max-width: 768px){
   .flexRowContent--productMain {
     display: flex;
@@ -212,6 +239,14 @@
     width: calc(320px - 12px * 2) !important;
     margin: 0 auto;
   }
+
+  .flexRowContent--price-qty :global(.vtex-product-quantity-1-x-summaryContainer) {
+    margin-left: -10px;
+  }
+
+  .flexRowContent--price-qty :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 80% !important;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px){
@@ -222,6 +257,10 @@
     width: calc(370px - 12px * 2) !important;
     margin: 0 auto;
   }
+
+  .flexRowContent--price-qty :global(.vtex-product-quantity-1-x-summaryContainer) {
+    margin-left: -10px;
+  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px){
@@ -231,6 +270,10 @@
   .flexRow--container-specification-mobile {
     width: calc(420px - 12px * 2) !important;
     margin: 0 auto;
+  }
+
+  .flexRowContent--price-qty :global(.vtex-product-quantity-1-x-summaryContainer) {
+    margin-left: -30px;
   }
 }
 
@@ -243,6 +286,10 @@
     margin: 0 auto;
   }
 
+  .flexRowContent--price-qty :global(.vtex-product-quantity-1-x-summaryContainer) {
+    margin-left: -210px;
+  }
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px){
@@ -252,6 +299,9 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
+  .flexRowContent--price-qty :global(.vtex-product-quantity-1-x-summaryContainer) {
+    margin-left: -60px;
+  }
   .flexRow--productMain,
   .flexRow--tab-pdp,
   .flexRow--flexBreadcrumb {
