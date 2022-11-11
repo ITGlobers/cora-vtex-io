@@ -1,0 +1,86 @@
+.flexRow--title-wish :global(.vtex-store-components-3-x-container) {
+  padding: 0 4px;
+}
+
+.flexRow--page-wish {
+  display        : flex;
+  justify-content: center;
+}
+
+.flexRow--page-wish :global(.vtex-store-components-3-x-container) {
+  max-width: 1200px;
+}
+
+.flexRowContent--page-wish {
+  flex-direction: column;
+}
+
+.flexRowContent--table-wish,
+.flexRowContent--buttons-wish {
+  justify-content: flex-start;
+  gap            : 30px;
+}
+
+.flexRowContent--table-wish :global(.vtex-product-price-1-x-sellingPrice),
+.flexRowContent--table-wish :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+  gap           : 10px;
+}
+
+.flexRowContent--table-wish :global(.vtex-product-price-1-x-sellingPrice)::before {
+  content  : "Price";
+  font-size: 16px;
+  color    : #444444;
+}
+
+.flexRowContent--table-wish :global(.vtex-product-quantity-1-x-quantitySelectorContainer)::before {
+  content  : "Quantity";
+  font-size: 16px;
+  color    : #444444;
+}
+
+.flexRowContent--buttons-wish :global(.vtex-wish-list-1-x-iconSize) {
+  background : none !important;
+  padding-top: 14px;
+  width      : auto;
+}
+
+.flexRowContent--buttons-wish :global(.vtex-wish-list-1-x-fill):global(.vtex-wish-list-1-x-iconSize)::before {
+  content       : "Remove";
+  color         : #109be0;
+  font-size     : 16px;
+  text-transform: capitalize;
+}
+
+.flexRowContent--buttons-wish :global(.vtex-wish-list-1-x-outline):global(.vtex-wish-list-1-x-iconSize)::before {
+  content       : "Add to wishlist again";
+  color         : #109be0;
+  font-size     : 16px;
+  text-transform: capitalize;
+}
+
+
+
+
+@media (max-width:767px) {
+
+
+  .flexRowContent--table-wish {
+    display: flex;
+  }
+
+  .flexRowContent--buttons-wish {
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-start;
+    gap           : 0;
+  }
+
+  .flexRowContent--table-wish :global(.vtex-product-price-1-x-sellingPrice),
+  .flexRowContent--table-wish :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+    align-items: flex-start;
+  }
+
+}

@@ -72,3 +72,84 @@
   background-color: transparent;
   color           : #111c8b;
 }
+
+.deliveryMethodsOption {
+  height    : fit-content;
+  min-height: 0;
+}
+
+.deliveryMethodsOption :last-child,
+.deliveryMethodsOption :nth-child(even) {
+  font-size  : 0;
+  line-height: 0;
+  height     : 0;
+  display    : none;
+}
+
+.deliveryMethodsOption :global(.vtex-render-runtime-8-x-lazyload) {
+  display: none;
+}
+
+.deliveryMethodsOption:first-child::before {
+  content            : "";
+  background-image   : url(https://www.cora.ro/static/version1667889402/frontend/Exorigo/Cora/ro_RO/images/sl_store.svg);
+  width              : 36px;
+  height             : 36px;
+  background-size    : contain;
+  display            : block;
+  background-position: center;
+  background-repeat  : no-repeat;
+  margin-bottom      : 15px;
+}
+
+.deliveryMethodsOption:first-child::after {
+  content    : "Ridicare din punctul";
+  font-size  : 16px;
+  font-weight: 700;
+}
+
+.deliveryMethodsOption:last-child::before {
+  content            : "";
+  background-image   : url(https://www.cora.ro/static/version1667889402/frontend/Exorigo/Cora/ro_RO/images/truck.svg);
+  width              : 36px;
+  height             : 36px;
+  background-size    : contain;
+  display            : block;
+  background-position: center;
+  background-repeat  : no-repeat;
+  margin-bottom      : 15px;
+}
+
+.deliveryMethodsOption:last-child::after {
+  content    : "Livrare la domiciliu";
+  font-size  : 16px;
+  font-weight: 700;
+}
+
+.headerDeliveryAddress {
+  font-size: 0;
+}
+
+.headerDeliveryAddress::after {
+  content  : "Cora Lujerului";
+  font-size: 9px;
+}
+
+
+.filterInnerContainer .checkboxContainer:first-child,
+.filterInnerContainer .checkboxContainer:last-child {
+  display: none;
+}
+
+.arrowBackButton:hover {
+  color: #111c8b;
+}
+
+.deliveryMethodsText{
+  font-size: 0 ;
+}
+
+.deliveryMethodsText::after{
+  content: "Alege metoda de livrare si magazinul preferat";
+  font-size: 18px;
+}

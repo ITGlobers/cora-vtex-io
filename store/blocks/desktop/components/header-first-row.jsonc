@@ -55,7 +55,7 @@
   "link#first-row__logo-search--wishlist": {
     "title": "Link Wishlist",
     "props": {
-      "href": "/account",
+      "href": "/account#/wishlist",
       "label": "wish",
       "blockClass": "logo-search__wishlist"
     }
