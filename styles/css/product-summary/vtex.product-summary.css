@@ -92,3 +92,11 @@
 :global(.vtex-wish-list-1-x-outline):hover::before {
   color: #ed1c24;
 }
+
+.element--global__product-summary :global(.vtex-reviews-and-ratings-3-x-star--filled) {
+  color: #ed1c24;
+}
+
+.element--global__product-summary  :global(.vtex-reviews-and-ratings-3-x-star--empty ) {
+  color: #c9c9c9;
+}

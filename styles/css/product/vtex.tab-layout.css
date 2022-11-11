@@ -8,7 +8,12 @@
   border: 1px solid #fff !important;
   box-shadow: 0 0 10px #e8e9f4 !important;
   border-radius: 18px;
-  height: 36px;
+  height: 24px;
+}
+
+.listItem--product-specification {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .listItemActive--product-specification :global(.vtex-button__label) {
@@ -16,6 +21,8 @@
   font-weight: 600 !important;
   text-transform: capitalize;
   font-size: 0.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .listItem--product-specification :global(.vtex-button) {
@@ -23,7 +30,7 @@
     background: #f8fafc;
     border: 1px solid #e8e9f4;
   border-radius: 18px;
-  height: 36px;
+  height: 24px;
 }
 
 .listItem--product-specification :global(.vtex-button__label) {
@@ -31,6 +38,8 @@
   font-weight: 400;
   text-transform: capitalize;
   font-size: 0.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .contentItem--product-specification {
@@ -40,3 +49,92 @@
   margin-top: 30px;
   padding: 20px;
 }
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+  color: #111c8b;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 700;
+  border: none;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-graphTextLabel) {
+  color: #111c8b;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-graphBarPercent) {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage),
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount) {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-starsContainer),
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-writeReviewButton),
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy) :global(.vtex-dropdown__caption),
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-input__label),
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-textarea__label) {
+  font-size: 0.8rem;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex__icon-caret-down),
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex__icon-caret-up),
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex__icon-caret-up),
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex__icon-caret-down)  {
+  width: 12px;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-formSubmit) :global(.vtex-button) :global(.vtex-butto__label) {
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-graphBar){
+  background-color: #ed1c24;
+  border-radius: 20px;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex-reviews-and-ratings-3-x-reviewCommentRating) :global(.vtex-reviews-and-ratings-3-x-reviewCommentUser),
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex-reviews-and-ratings-3-x-reviewCommentRating) :global(.vtex-reviews-and-ratings-3-x-stars) {
+  font-size: 0.9rem !important;
+}
+
+.contentItem--product-specification :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px){
+  .listContainer--product-specification {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px){
+  .listContainer--product-specification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+
+

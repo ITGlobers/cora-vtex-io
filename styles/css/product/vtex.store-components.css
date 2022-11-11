@@ -18,6 +18,15 @@
     font-weight: 700;
 }
 
+/* .swiperCaretPrev--imagePdpd:focus {
+  background-color: rgba(255,255,255,.3);
+  transition: background-color .3s ease-in-out;
+  transition-duration: .3s;
+  transition-property: transform,opacity,background-color;
+  transform: translate3d(-120px,0,0);
+
+} */
+
 /* tab content */
 .content--description-pdp {
   font-size: 0.8rem;

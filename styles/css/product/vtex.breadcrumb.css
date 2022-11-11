@@ -1,0 +1,12 @@
+.term--mobile{
+  color: #111c8b;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.arrow--mobile--3,
+.arrow--mobile--2,
+.arrow--mobile--1 {
+  display: none;
+}
+

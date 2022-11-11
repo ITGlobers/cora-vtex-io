@@ -1,0 +1,140 @@
+{
+  "flex-layout.row#specification-mobile-pdp": {
+    "title": "block mobile",
+    "children": ["disclosure-layout-group#group-mobile"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "disclosure-layout-group#group-mobile": {
+    "title": "container",
+    "children": [
+      "disclosure-layout#one",
+      "disclosure-layout#two",
+      "disclosure-layout#three",
+      "disclosure-layout#four"
+    ],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  /* one */
+  "disclosure-layout#one": {
+    "title": "container one",
+    "children": ["disclosure-trigger#one", "disclosure-content#one"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "disclosure-trigger#one": {
+    "title": "container title",
+    "children": ["rich-text#descripion", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "disclosure-content#one": {
+    "title": "container content",
+    "children": ["product-description#pdp"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "rich-text#descripion": {
+    "title": "title",
+    "props": {
+      "text": "Descriere",
+      "blockClass": "text-mobile"
+    }
+  },
+
+  /* two */
+  "disclosure-layout#two": {
+    "title": "container two",
+    "children": ["disclosure-trigger#two", "disclosure-content#two"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "disclosure-trigger#two": {
+    "title": "container title",
+    "children": ["rich-text#Ingrediente", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "disclosure-content#two": {
+    "title": "container content",
+    "children": ["product-specification-group#ingrediente"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "rich-text#Ingrediente": {
+    "title": "title",
+    "props": {
+      "text": "Ingrediente",
+      "blockClass": "text-mobile"
+    }
+  },
+
+  /* three */
+  "disclosure-layout#three": {
+    "title": "container two",
+    "children": ["disclosure-trigger#three", "disclosure-content#three"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "disclosure-trigger#three": {
+    "title": "container title",
+    "children": ["rich-text#Valores", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "disclosure-content#three": {
+    "title": "container content",
+    "children": ["product-specification-group#valores"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "rich-text#Valores": {
+    "title": "title",
+    "props": {
+      "text": "Valori nutritionales",
+      "blockClass": "text-mobile"
+    }
+  },
+
+   /* four */
+   "disclosure-layout#four": {
+    "title": "container two",
+    "children": ["disclosure-trigger#four", "disclosure-content#four"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "disclosure-trigger#four": {
+    "title": "container title",
+    "children": ["rich-text#Recenzii", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "disclosure-content#four": {
+    "title": "container content",
+    "children": ["product-reviews"],
+    "props": {
+      "blockClass": "container-specification-mobile"
+    }
+  },
+  "rich-text#Recenzii": {
+    "title": "title",
+    "props": {
+      "text": "Recenzii produs",
+      "blockClass": "text-mobile"
+    }
+  }
+}
