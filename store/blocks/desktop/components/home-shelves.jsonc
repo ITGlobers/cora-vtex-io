@@ -45,7 +45,8 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "product__shelve--one"
+      "blockClass": "product__shelve--one",
+      "showPaginationDots": "never"
     }
   },
 
@@ -94,7 +95,8 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "product__shelve--two"
+      "blockClass": "product__shelve--two",
+      "showPaginationDots": "never"
     }
   }
 }
