@@ -60,7 +60,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/produse-proaspete",
         "text": "Produse proaspete"
       }
     },
@@ -81,7 +81,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/bacanie",
         "text": "Bacanie"
       }
     }
@@ -135,7 +135,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/bebe",
         "text": "Bebe & copii"
       }
     }
@@ -171,7 +171,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/casa-si-curatenie",
         "text": "Casa, auto si bricolai"
       }
     }
@@ -189,7 +189,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/pet-shop",
         "text": "Petshop"
       }
     }
