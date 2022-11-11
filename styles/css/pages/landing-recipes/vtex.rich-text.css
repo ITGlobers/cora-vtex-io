@@ -2,11 +2,16 @@
   justify-content: center;
 }
 
-.list--ingredient__text,
-.list--steps__text {
+.list--recipe__ingredient--text,
+.list--recipe__steps--text {
   padding-left: 1.1rem;
 }
 
 .heading--recipe__title {
+  margin: 0;
+}
+
+.paragraph--recipe__steps--title,
+.paragraph--recipe__ingredients--title {
   margin-top: 0;
 }

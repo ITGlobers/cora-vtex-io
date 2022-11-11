@@ -1,8 +1,21 @@
 {
   "store.custom#recipe-legume-mexicane": {
     "children": [
+      "flex-layout.row#recipe__title",
       "flex-layout.row#info__recipe",
       "flex-layout.row#video"
+    ]
+  },
+
+  "flex-layout.row#recipe__title": {
+    "title": "Recipe title",
+    "props": {
+      "blockClass": [
+        "recipe-title"
+      ]
+    },
+    "children": [
+        "rich-text#recipe__title"
     ]
   },
 
@@ -36,7 +49,6 @@
   "flex-layout.col#container__info": {
     "title": "Text container",
     "children": [
-      "rich-text#recipe__title",
       "flex-layout.row#recipe__text",
       "flex-layout.row#checkout__button"
     ],
@@ -48,12 +60,14 @@
   },
 
   "rich-text#recipe__title": {
-    "title": "Text title",
+    "title": "Recipe title",
     "props": {
-      "text": "# Legume \n # Mexicane cu orez",
+      "text": "# Legume Mexicane cu orez",
       "blockClass":[
         "recipe__title"
-      ]
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
 
@@ -86,7 +100,10 @@
   "rich-text#ingredients__title": {
     "title": "Ingredients title",
     "props": {
-      "text": "**INGREDIENTE**"
+      "text": "**INGREDIENTE**",
+      "blockClass":[
+        "recipe__ingredients--title"
+      ]
     }
   },
 
@@ -94,7 +111,7 @@
     "title": "Ingredients text",
     "props": {
       "blockClass":[
-        "ingredient__text"
+        "recipe__ingredient--text"
       ],
       "text": "- 1 pungă (400 g) Mexican mix Vapeur Bonduelle \n\n- 150 g orez basmatic \n\n- 100 ml stoc de legume \n\n- 1 ceapă roșie \n\n- 1/2 ardei jalapeno \n\n- 2 căței de usturoi \n\n- 1/4 legătură coriandru \n\n- Sucul de la 1/2 lămâie \n\n- Ulei de măsline \n\n- Un vârf de ardei cayenne pudră \n\n- Un vârf de chimen pudră \n\n- Sare, piper\n"
     }
@@ -117,7 +134,10 @@
   "rich-text#steps__title":{
     "title": "Steps title",
     "props": {
-      "text": "**Pași de preparare**"
+      "text": "**Pași de preparare**",
+      "blockClass":[
+        "recipe__steps--title"
+      ]
     }
   },
 
@@ -125,7 +145,7 @@
     "title": "Steps content",
     "props": {
       "blockClass":[
-        "steps__text"
+        "recipe__steps--text"
       ],
       "text": "- **Pasul 1**\nTocăm ceapa, ardeiul, usturoiul și coriandrul. \n\n- **Pasul 2** \nCălim ceapa și ardeiul în uleiul încins, iar ulterior adăugăm usturoiul. \n\n- **Pasul 3** \nPunem mixul mexican în tigaie, adăugăm condimentele și amestecăm. Timp de gătire 5-7 minute. \n\n- **Pasul 4** \nAdăugăm orezul și stocul de legume și lăsăm totul să fiarbă timp de 10 minute. \n\n- **Pasul 5** \nLa final condimentăm cu sucul de lămâie, coriandrul, sare și piper. \n"
     }
