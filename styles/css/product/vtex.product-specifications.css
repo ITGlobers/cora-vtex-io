@@ -13,3 +13,30 @@
   font-weight: 600;
   line-height: 1.42857143;
 }
+
+.specificationName--productSpecificationValue-valores {
+  font-size: 0.8rem;
+  color: #111c8b;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.42857143;
+}
+
+.specificationValue--productSpecificationValue-valores-one {
+  font-size: 0.8rem;
+  color: #111c8b;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857143;
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px){
+  .specificationName--productSpecificationValue-valores {
+    font-size: 0.6rem;
+
+  }
+
+  .specificationValue--productSpecificationValue-valores-one {
+    font-size: 0.6rem;
+  }
+}

@@ -14,27 +14,27 @@
     "props": {
       "blockClass": "productSpecification-ingrediente"
     },
-    "children": ["flex-layout.col#spec-group"]
+    "children": ["flex-layout.col#spec-group-ingrediente"]
   },
-  "flex-layout.col#spec-group": {
+  "flex-layout.col#spec-group-ingrediente": {
     "title": "container name - specification",
     "props":{"blockClass": "productSpecification-ingrediente"},
-    "children": ["flex-layout.row#spec-group-name", "product-specification"]
+    "children": ["flex-layout.row#spec-group-name", "product-specification#ingrediente"]
   },
   "flex-layout.row#spec-group-name": {
     "title": "container name",
     "props": {"blockClass": "productSpecification-ingrediente"},
     "children": ["product-specification-text#group"]
   },
-  "product-specification": {
-    "children": ["flex-layout.row#spec-item"],
+  "product-specification#ingrediente": {
+    "children": ["flex-layout.row#spec-item-ingrediente"],
     "props": {"blockClass": "productSpecification-ingrediente"}
   },
-  "flex-layout.row#spec-item": {
+  "flex-layout.row#spec-item-ingrediente": {
     "props": {"blockClass": "productSpecification-ingrediente"},
-    "children": ["flex-layout.col#spec-name"]
+    "children": ["flex-layout.col#spec-name-ingrediente"]
   },
-  "flex-layout.col#spec-name": {
+  "flex-layout.col#spec-name-ingrediente": {
     "title": "container specification Name",
     "props": {
       "blockClass": "productSpecification-ingrediente",
@@ -43,18 +43,18 @@
         "desktop": "25%"
       }
     },
-    "children": ["product-specification-text#specification"]
+    "children": ["product-specification-text#specification-ingrediente"]
   },
-  /* "flex-layout.col#spec-value": {
+  "flex-layout.col#spec-value": {
     "title": "container",
     "props": {"blockClass": "productSpecification-ingrediente-value"},
     "children": ["product-specification-values"]
-  }, */
-  /* "product-specification-values": {
+  },
+  "product-specification-values": {
     "title": "container specification Value",
     "props": {"blockClass": "productSpecification-ingrediente"},
     "children": ["product-specification-text#value"]
-  }, */
+  },
   "product-specification-text#group": {
     "title": "group Name",
     "props": {
@@ -62,18 +62,18 @@
       "blockClass": "productSpecification-ingrediente"
     }
   },
-  "product-specification-text#specification": {
+  "product-specification-text#specification-ingrediente": {
     "title": "specification Name",
     "props": {
       "message": "{specificationName}",
       "blockClass": "productSpecification-ingrediente"
     }
-  }
- /*  "product-specification-text#value": {
+  },
+  "product-specification-text#value": {
     "title": "specification Value",
     "props": {
       "message": "{specificationValue}",
       "blockClass": "productSpecification-ingrediente"
     }
-  } */
+  }
 }
