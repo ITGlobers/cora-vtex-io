@@ -158,6 +158,15 @@
   text-transform: capitalize;
 }
 
+.orderByOptionItem {
+  font-size: 0.8rem;
+}
+
+.orderByOptionItem:hover {
+background-color: #273896;
+color:#fff;
+}
+
 /* gallery */
 
 .filterPopupTitle--filter-horizontal {
@@ -270,6 +279,7 @@
     margin        : auto;
     margin-top    : 15px;
   }
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
@@ -281,4 +291,43 @@
     left: -140px;
     top : 50px;
   }
+
+  .filterBreadcrumbsItemName--filter-horizontal,
+  .filterBreadcrumbsText--filter-horizontal,
+  .accordionFilterItemTitle--filter-horizontal,
+  .filterAccordionItemBox :global(.vtex-checkbox__label) {
+    font-size: 1rem;
+  }
+
+  .accordionFilterItemOptions {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .priceRangeInput--filter-horizontal :global(.vtex-input-prefix__group) {
+    width: 80px;
+  }
+
+  .sidebar {
+    width: 280px;
+  }
 }
+
+
+@media screen and (min-width: 1025px) {
+  .filter__container--priceRange {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .filter__container--priceRange .filterTemplateOverflow--filter-horizontal {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  .filter__container--priceRange  .filterAvailable--filter-horizontal {
+    width: 120px;
+    height: 30px;
+  }
+}
+
