@@ -31,12 +31,6 @@
     color: #111c8b;
 }
 
-.paginationDotsContainer--product__shelve--one,
-.paginationDotsContainer--product__shelve--two,
-.paginationDotsContainer--shelve__banner {
-    display: none;
-}
-
 .sliderLayoutContainer--shelve__banner,
 .sliderLayoutContainer--product__shelve--one,
 .sliderLayoutContainer--product__shelve--two {
