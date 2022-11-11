@@ -86,9 +86,22 @@
   color      : #e7e8f3;
   content    : '\e912';
   font-family: 'cora-icons';
-  transition: all;
+  transition : all;
 }
 
 :global(.vtex-wish-list-1-x-outline):hover::before {
   color: #ed1c24;
+}
+
+
+.container--global__product-summary-list .nameContainer {
+  max-width: 200px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container--global__product-summary-list .nameContainer {
+    max-width: 100%;
+  }
+
 }

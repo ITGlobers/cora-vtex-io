@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop": {
+    "title": "Desktop view",
     "children": [
       "slider-layout#hero__sliders",
       "flex-layout.row#fourth__banners",

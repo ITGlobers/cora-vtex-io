@@ -8,12 +8,12 @@
   },
   "icon-caret#down": {
     "props": {
-      "orientation": "up"
+      "orientation": "down"
     }
   },
   "icon-caret#up": {
     "props": {
-      "orientation": "down"
+      "orientation": "up"
     }
   },
   "flex-layout.row#footer__information--mobile": {

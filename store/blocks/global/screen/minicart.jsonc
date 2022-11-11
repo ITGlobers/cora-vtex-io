@@ -69,7 +69,7 @@
   "link#cart": {
     "props": {
       "displayMode": "button",
-      "href": "/checkout/#/cart",
+      "href": "https://cora.myvtex.com/checkout/#/cart",
       "label": "View Shopping Cart",
       "blockClass": "link-cart-btn"
     }

@@ -1,13 +1,17 @@
 {
   "slider-layout#hero__sliders": {
+    "title": "Hero Slider",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
         "phone": 1
       },
-      "infinite": true,
       "showNavigationArrows": "never",
-      "blockClass": "hero__sliders"
+      "blockClass": "hero__sliders",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
     },
     "children": [
       "info-card#hero__slider--one",
