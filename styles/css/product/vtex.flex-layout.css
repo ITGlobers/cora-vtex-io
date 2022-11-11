@@ -85,6 +85,27 @@
   display: none;
 }
 
+/* tab pdp */
+.flexCol--productSpecification-ingrediente {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexColChild--productSpecification-ingrediente {
+  width: 100%;
+}
+
+ .flexRowContent--productSpecification-ingrediente :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+ width: 100% !important;
+}
+
+
+.flexCol--productSpecification-ingrediente-value {
+  display: none;
+ }
+/* tab pdp */
+
 @media screen and (min-width: 300px) and (max-width: 768px){
   .flexRowContent--productMain {
     display: flex;

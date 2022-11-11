@@ -1,0 +1,36 @@
+{
+  "product-specification-group#valores": {
+    "title": "specification Ingrediente",
+    "children": ["product-specification-text#group-valores", "product-specification#valores"],
+    "props":{
+      "filter": {
+        "type": "show",
+        "specificationGroups": ["Valori"]
+      }
+    }
+  },
+  "product-specification#valores": {
+    "children": [
+      "product-specification-text#specification-valores",
+      "product-specification-values#valores"
+    ]
+  },
+  "product-specification-values#valores": {
+    "children": ["product-specification-text#value-valores"]
+  },
+  "product-specification-text#group-valores": {
+    "props": {
+      "message": "{groupName}"
+    }
+  },
+  "product-specification-text#specification-valores": {
+    "props": {
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#value-valores": {
+    "props": {
+      "message": "{specificationValue}"
+    }
+  }
+}

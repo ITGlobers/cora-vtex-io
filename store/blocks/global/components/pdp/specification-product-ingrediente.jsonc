@@ -1,0 +1,79 @@
+{
+  "product-specification-group#ingrediente": {
+    "title": "specification Ingrediente",
+    "children": ["flex-layout.row#spec-group"],
+    "props":{
+      "blockClass": "productSpecification-ingrediente",
+      "filter": {
+        "type": "show",
+        "specificationGroups": ["Ingrediente"]
+      }
+    }
+  },
+  "flex-layout.row#spec-group": {
+    "props": {
+      "blockClass": "productSpecification-ingrediente"
+    },
+    "children": ["flex-layout.col#spec-group"]
+  },
+  "flex-layout.col#spec-group": {
+    "title": "container name - specification",
+    "props":{"blockClass": "productSpecification-ingrediente"},
+    "children": ["flex-layout.row#spec-group-name", "product-specification"]
+  },
+  "flex-layout.row#spec-group-name": {
+    "title": "container name",
+    "props": {"blockClass": "productSpecification-ingrediente"},
+    "children": ["product-specification-text#group"]
+  },
+  "product-specification": {
+    "children": ["flex-layout.row#spec-item"],
+    "props": {"blockClass": "productSpecification-ingrediente"}
+  },
+  "flex-layout.row#spec-item": {
+    "props": {"blockClass": "productSpecification-ingrediente"},
+    "children": ["flex-layout.col#spec-name"]
+  },
+  "flex-layout.col#spec-name": {
+    "title": "container specification Name",
+    "props": {
+      "blockClass": "productSpecification-ingrediente",
+      "width": {
+        "mobile": "50%",
+        "desktop": "25%"
+      }
+    },
+    "children": ["product-specification-text#specification"]
+  },
+  /* "flex-layout.col#spec-value": {
+    "title": "container",
+    "props": {"blockClass": "productSpecification-ingrediente-value"},
+    "children": ["product-specification-values"]
+  }, */
+  /* "product-specification-values": {
+    "title": "container specification Value",
+    "props": {"blockClass": "productSpecification-ingrediente"},
+    "children": ["product-specification-text#value"]
+  }, */
+  "product-specification-text#group": {
+    "title": "group Name",
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "productSpecification-ingrediente"
+    }
+  },
+  "product-specification-text#specification": {
+    "title": "specification Name",
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "productSpecification-ingrediente"
+    }
+  }
+ /*  "product-specification-text#value": {
+    "title": "specification Value",
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "productSpecification-ingrediente"
+    }
+  } */
+}

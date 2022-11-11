@@ -18,3 +18,12 @@
     font-weight: 700;
 }
 
+/* tab content */
+.content--description-pdp {
+  font-size: 0.8rem;
+  color: #111c8b;
+  font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+/* tab content */

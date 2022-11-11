@@ -108,9 +108,11 @@
       "add-to-list-btn#pdp",
       "product-identifier.product",
       "flex-layout.row#product-name",
+
       "product-rating-summary",
       "product-selling-price",
-      "flex-layout.row#button-pdp"
+      "flex-layout.row#button-pdp",
+      "product-specification-group"
     ]
   },
 
