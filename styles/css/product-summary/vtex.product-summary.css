@@ -98,6 +98,14 @@
   max-width: 200px;
 }
 
+.element--global__product-summary :global(.vtex-reviews-and-ratings-3-x-star--filled) {
+  color: #ed1c24;
+}
+
+.element--global__product-summary  :global(.vtex-reviews-and-ratings-3-x-star--empty ) {
+  color: #c9c9c9;
+
+}
 
 @media screen and (max-width: 1024px) {
   .container--global__product-summary-list .nameContainer {

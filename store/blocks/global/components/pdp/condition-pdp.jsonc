@@ -62,7 +62,7 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "width": "56%",
       "rowGap": 0,
       "blockClass": "image"
     }
@@ -110,8 +110,15 @@
       "flex-layout.row#product-name",
       "product-rating-summary",
       "product-selling-price",
-      "flex-layout.row#button-pdp"
+      "flex-layout.row#button-pdp",
+      "rich-text#detail"
     ]
+  },
+  "rich-text#detail": {
+    "props": {
+      "text": "Produsele sunt comercializate in ambalajul original al producatorului, iar imaginile acestora sunt cu titlu de prezentare. In unele cazuri, produsele livrate pot prezenta abateri minore de la pozele si descrierile prezentate. Producatorii pot opera modificari fara sa fim avizati in prealabil.",
+      "blockClass": "pdp-detail"
+    }
   },
 
   "add-to-list-btn#pdp": {
