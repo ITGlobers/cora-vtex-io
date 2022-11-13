@@ -1,7 +1,7 @@
 {
   "vendor": "cora",
   "name": "cora-store-theme",
-  "version": "11.0.3",
+  "version": "11.0.4",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
